@@ -1,0 +1,458 @@
+body {
+	margin: 0px auto;
+	padding: 0px;
+	width: 970px;
+	text-align: left;
+}
+ @media (max-width: 1024px) {
+#maintable {
+	width: 100%;
+}
+}
+ @media (min-width: 1280px) {
+#maintable {
+	width: 970px;
+}
+}
+
+th > img {
+	margin: 10px 20px;
+}
+th > h1 {
+	padding-left: 40px;
+	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 100;
+	letter-spacing: 3.2px;
+}
+th > .small {
+	font-size: 14pt;
+	margin-top: -25px;
+	letter-spacing: 1px;
+}
+.content {
+	width: 100%;
+	border-spacing: 0px;
+	padding: 0 0 0 20px;
+}
+.inner_right {
+	width: 250px;
+	padding-right: 30px;
+	vertical-align: top;
+}
+
+h2 {
+	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 100;
+	border-bottom: 2px solid black;
+}
+.press_main {
+	margin-top: 45px;
+}
+/*.press_main a {
+	text-decoration: none;
+	color: #fff;
+}*/
+
+.ugol {
+	position:absolute;
+	display:none;
+	z-index:100;
+}
+
+/*
+Может понадобиться
+.triangle-topleft {
+	width: 0;
+	height: 0;
+	display: none;
+	position: absolute;
+	border-top: 40px solid #f93;
+	border-right: 40px solid transparent;
+	z-index:100;
+}
+*/
+
+/*------*/
+.minwrapper, .maxwrapper {
+	font: 10pt normal Arial, sans-serif;
+	height: auto;
+	padding: 5px auto;
+	width: 204px;
+} 
+.maxwrapper {
+	width:412px;
+}
+
+.minwrapper .box, .maxwrapper .box {
+	height: 135px;
+	float: left;
+	position: relative;
+	overflow: hidden;
+	width: 200px;
+}
+.maxwrapper .box {
+	height: 275px;
+	width: 408px;
+}
+
+.minwrapper .box img, .maxwrapper .box img {
+	position: absolute;
+	left: 0;
+}
+
+.minwrapper .box .caption, .maxwrapper .box .caption {
+	background-color: rgba(246,146,30,0.75);
+	position: absolute;
+	color: #fff;
+	z-index: 100;
+	left: 0;
+}
+
+.minwrapper .box .simple-caption, .maxwrapper .box .simple-caption {
+	height: 30px;
+	width: 200px;
+	display: block;
+	bottom: -30px;
+	-moz-transform: translateY(-100%);
+	-o-transform: translateY(-100%);
+	-webkit-transform: translateY(-100%);
+	transform: translateY(-100%);
+
+}
+.maxwrapper .box .simple-caption {
+	height: 30px;
+	width: 408px;
+}
+
+.minwrapper .box:hover .ugol, .maxwrapper .box:hover .ugol {
+	display:block;
+	margin-left:-2px;
+	margin-top:-2px;
+}
+
+/*.minwrapper .box:hover .triangle-topleft, .maxwrapper .box:hover .triangle-topleft {
+	display:block;
+}
+*/
+.simple-caption > p {
+	margin-top:0px;
+	padding:6px 5px;
+}
+/*------*/
+
+.last_events {
+	vertical-align: top;
+}
+.last_events a {
+	text-decoration: none;
+	color: #000;
+}
+.last_events a:hover h3 {
+	text-decoration: underline;
+}
+.le_item {
+	height: 120px;
+	display: block;
+	margin: 0px 0 25px;
+}
+.le_item > img {
+	float: left;
+	margin-right: 20px;
+	width:150px;
+	height:100px;
+}
+.lead {
+	padding-top: 5px;
+	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.lead h3 {
+	font-weight: 600;
+	margin-top: -5px;
+	font-size: 18px;
+}
+.lead p {
+	font-size: 13px;
+	margin-top: -15px;
+}
+.underline {
+	display: block;
+	border-top: 1px solid #CCC;
+	width: 270px;
+	height: 14px;
+	text-align: center;
+	margin-left: 60px;
+}
+.underline a {
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+}
+.most_popular {
+	width: 205px;
+	padding-left: 10px;
+	padding-right: 40px;
+	vertical-align: top;
+}
+.most_popular a {
+	text-decoration: none;
+}
+.item {
+	background-color: #e1e1e2;
+	padding: 30px 10px 5px 10px;
+	margin-top: -20px;
+	margin-bottom: 15px;
+	border-top: 1px solid #fff;
+	text-align: center;
+}
+.most_popular .item > img {
+	width:182px;
+	height:125px;
+}
+a:hover > .item {
+	background-color: #ccc;
+}
+a > .item > h3 {
+	margin-top: 5px;
+	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 600;
+	font-size: 17px;
+	color: #000;
+}
+.trapezoid {
+	border-bottom: 30px solid black;
+	border-right: 50px solid transparent;
+	height: 0px;
+	width: 250px;
+}
+.trapezoid > p {
+	margin-top: 19px;
+	padding: 5px 30px;
+	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+	color: #fff;
+}
+.profi_lessons {
+ 	//width:618px;
+	height: 340px;
+	border-top: 2px solid black;
+	margin-right: 40px;
+}
+.profi_item {
+	width: 242px;
+	min-height: 280px;
+	background-color: rgba(255,255,255,0.75);
+	padding: 2px;
+	float: left;
+	margin: 30px 30px 0;
+	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+}
+.profi_item > iframe {
+	padding: 1px;
+}
+.profi_item h3, .sport_item h3 {
+	font-weight: 600;
+	font-size: 16px;
+	margin: 5px 0;
+}
+.profi_item p, .sport_item p {
+	margin: 0;
+}
+.profi_item > div, .sport_item > div {
+	padding: 0 10px 5px;
+}
+.my_sport {
+	min-height: 300px;
+	padding: 10px 0px;
+}
+.sport_item {
+	background-color: rgba(255,255,255,0.75);
+	min-height: 280px;
+	padding: 2px 0;
+	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+}
+.sport_item > iframe {
+	width: 100%;
+}
+.sport_moments {
+	padding-right: 40px;
+}
+.sport_moments > table {
+	border-spacing: 4px;
+}
+
+.sport_moments > table img {
+	width:150px;
+	height:100px;
+}
+.plitka {
+	width: 184px;
+	height: 184px;
+	color: #fff;
+	float: left;
+	margin: 30px 35px 30px 0;
+	text-align: center;
+}
+.plitka > img {
+	margin-top: 30px;
+	width:78px;
+	height:78px;
+}
+.plitka > img + p {
+	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14pt;
+}
+.sad {
+	margin-top: 30px;
+}
+.orange_gradient {
+	/* Legacy browsers */
+	background: #F6921E url("./_images/main/orange_gradient-bg.png") repeat-x top;
+	-o-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	/* Recent browsers */
+	background: -webkit-gradient( linear, left top, left bottom, from(#FAAF40), to(#F6921E) );
+	background: -webkit-linear-gradient( top, #FAAF40, #F6921E );
+	background: -moz-linear-gradient( top, #FAAF40, #F6921E );
+	background: -o-linear-gradient( top, #FAAF40, #F6921E );
+	background: linear-gradient( top, #FAAF40, #F6921E );
+}
+.black_gradient {
+	/* Legacy browsers */
+	background: #000000 url("./_images/main/black_gradient-bg.png") repeat-x top;
+	-o-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	/* Recent browsers */
+	background: -webkit-gradient( linear, left top, left bottom, from(#404041), to(#000000) );
+	background: -webkit-linear-gradient( top, #404041, #000000 );
+	background: -moz-linear-gradient( top, #404041, #000000 );
+	background: -o-linear-gradient( top, #404041, #000000 );
+	background: linear-gradient( top, #404041, #000000 );
+}
+.grey_gradient {
+	/* Legacy browsers */
+	background: #A6A8AB url("./_images/main/grey_gradient-bg.png") repeat-x top;
+	-o-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	/* Recent browsers */
+	background: -webkit-gradient( linear, left top, left bottom, from(#E6E7E8), to(#A6A8AB) );
+	background: -webkit-linear-gradient( top, #E6E7E8, #A6A8AB );
+	background: -moz-linear-gradient( top, #E6E7E8, #A6A8AB );
+	background: -o-linear-gradient( top, #E6E7E8, #A6A8AB );
+	background: linear-gradient( top, #E6E7E8, #A6A8AB );
+}
+.links td {
+	vertical-align: top;
+	padding: 20px 0;
+}
+.links a {
+	display: block;
+	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	padding: 2px 20px;
+	color: #000;
+	text-decoration: none;
+}
+.links a:hover {
+	text-decoration: underline;
+}
+.contacts {
+	width: 100%;
+	margin-top: 1px;
+	background-color: #929497;
+	border-top: 1px solid black;
+}
+.contacts p {
+	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	color: #fff;
+	padding-left: 20px;
+}
+.contacts a {
+	color: inherit;
+}
+.copy {
+	font-family: Arial, sans-serif;
+	font-size: 10px;
+	margin: 5px 10px;
+	width:100%;
+}
+
+.next_events {
+		font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.next_events td:first-child {
+	color: #262262;
+	border-bottom-color: #262262;
+}
+.next_events td:first-child div {
+	padding:4px 10px;
+	background-color:#f93;
+	color:#fff;
+	margin-left:-1px;
+}
+
+.next_events td:first-child span {
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.next_events td + td {
+	font-size: 12px;
+	color: #222;	
+	padding-top: 4px;
+	padding-left: 5px;
+}
+
+.next_events h2 {
+	margin: 2px 0 0 2px;
+	font-size: 18px;
+	color: #555;
+	border-bottom: 0px;
+	padding:4px 10px;
+	margin-top:-4px;
+}
+.next_events h2 > a {
+	color:#000;
+	text-decoration:none;
+	font-weight:bold;
+}
+.next_events p.lead {
+	font-size:13px;
+	padding:5px 10px;
+//	margin:-5px 2px 2px;
+	margin-top:-5px;
+	margin-left:2px;
+}
+
+.next_events:hover h2, .next_events:hover h2 > a, .next_events:hover p.lead {
+	background-color:#f93;
+	color:#fff;
+}
+
+.Flash {
+	min-height:100px;
+	display:none;
+}
+
+.history {
+	text-align:center;
+}
+.history p {
+	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:14px;
+}
+
+.history p > span {
+	font-weight:600;
+	font-size:20px;
+}
