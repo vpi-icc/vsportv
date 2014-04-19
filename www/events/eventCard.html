@@ -1,0 +1,42 @@
+<div id="titleimg">{cover}</div>
+<h1>{title}</h1>
+
+<p><strong>{summary}</strong></p>
+{text}
+
+
+<div id="vk_share" style="float: right"></div>
+<script type="text/javascript">
+<!--
+	$('#vk_share').html(
+		VK.Share.button(
+		{
+			title: "{title_utf8}",
+			description: "{summary_utf8}",
+			image: "{image_src}",
+			noparse: true },
+		{
+			type: "button_nocount",		
+			text: "Сохранить у себя" }));
+-->
+</script>
+
+<div id="vk_like"></div>
+<script type="text/javascript">
+	VK.Widgets.Like("vk_like", {type: "full", pageTitle: "{title_utf8}", pageDescription: "{summary_utf8}"});
+	$('#vk_like').css('clear', 'none');
+</script>
+
+
+<!--
+<p class="tags">теги: <a href="#">свобода</a> | <a href="#">движение</a> | <a href="#">развитие</a></p>
+
+
+<br />
+
+<div class="corner" id="gallery">
+
+	<h1 class="grey">Фотографии с мероприятия</h1>
+	{gallery}
+</div>
+-->

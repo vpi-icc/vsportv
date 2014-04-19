@@ -1,0 +1,457 @@
+[14-Aug-2013 11:53:49] PHP Fatal error:  Allowed memory size of 8388608 bytes exhausted (tried to allocate 216278 bytes) in Unknown on line 0
+[14-Aug-2013 11:54:12] PHP Fatal error:  Maximum execution time of 10 seconds exceeded in C:\www\vhosts\vsport.pnhost.ru\www\_pma\libraries\dbi\mysql.dbi.lib.php on line 140
+[14-Aug-2013 12:24:27] PHP Fatal error:  Call to undefined function return_bytes() in C:\www\vhosts\vsport.pnhost.ru\www\req\forms\XForm.php on line 110
+[14-Aug-2013 12:46:34] PHP Notice:  Undefined variable: eventsList in C:\www\vhosts\vsport.pnhost.ru\www\admin\content.php on line 17
+[14-Aug-2013 12:46:34] PHP Fatal error:  Call to a member function write() on a non-object in C:\www\vhosts\vsport.pnhost.ru\www\admin\content.php on line 17
+[14-Aug-2013 12:48:45] PHP Notice:  Undefined variable: eventsList in C:\www\vhosts\vsport.pnhost.ru\www\admin\content.php on line 17
+[14-Aug-2013 12:48:45] PHP Fatal error:  Call to a member function write() on a non-object in C:\www\vhosts\vsport.pnhost.ru\www\admin\content.php on line 17
+[14-Aug-2013 13:00:11] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in C:\www\vhosts\vsport.pnhost.ru\www\req\events\EventMainListWriter.php on line 9
+[14-Aug-2013 13:06:54] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in C:\www\vhosts\vsport.pnhost.ru\www\req\events\EventMainListWriter.php on line 9
+[14-Aug-2013 13:06:58] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in C:\www\vhosts\vsport.pnhost.ru\www\req\events\EventMainListWriter.php on line 9
+[14-Aug-2013 14:16:12] PHP Warning:  include() [<a href='function.include'>function.include</a>]: open_basedir restriction in effect. File(C:/www/vhosts/vsport.pnhost.ru/www/../inc/template_inner.php) is not within the allowed path(s): (c:/www/vhosts/vsport.pnhost.ru/tmp;c:/www/vhosts/vsport.pnhost.ru/www) in C:\www\vhosts\vsport.pnhost.ru\www\events\index.php on line 4
+[14-Aug-2013 14:16:12] PHP Warning:  include(C:/www/vhosts/vsport.pnhost.ru/www/../inc/template_inner.php) [<a href='function.include'>function.include</a>]: failed to open stream: Operation not permitted in C:\www\vhosts\vsport.pnhost.ru\www\events\index.php on line 4
+[14-Aug-2013 14:16:12] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'C:/www/vhosts/vsport.pnhost.ru/www/../inc/template_inner.php' for inclusion (include_path='.;C:\php5\pear') in C:\www\vhosts\vsport.pnhost.ru\www\events\index.php on line 4
+[14-Aug-2013 14:17:19] PHP Warning:  include() [<a href='function.include'>function.include</a>]: open_basedir restriction in effect. File(C:/www/vhosts/vsport.pnhost.ru/www/../inc/template_inner.php) is not within the allowed path(s): (c:/www/vhosts/vsport.pnhost.ru/tmp;c:/www/vhosts/vsport.pnhost.ru/www) in C:\www\vhosts\vsport.pnhost.ru\www\events\index.php on line 4
+[14-Aug-2013 14:17:19] PHP Warning:  include(C:/www/vhosts/vsport.pnhost.ru/www/../inc/template_inner.php) [<a href='function.include'>function.include</a>]: failed to open stream: Operation not permitted in C:\www\vhosts\vsport.pnhost.ru\www\events\index.php on line 4
+[14-Aug-2013 14:17:19] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'C:/www/vhosts/vsport.pnhost.ru/www/../inc/template_inner.php' for inclusion (include_path='.;C:\php5\pear') in C:\www\vhosts\vsport.pnhost.ru\www\events\index.php on line 4
+[21-Aug-2013 14:09:08] PHP Notice:  Use of undefined constant pphp - assumed 'pphp' in C:\www\vhosts\vsport.pnhost.ru\www\admin\index.php on line 1
+[21-Aug-2013 14:09:09] PHP Notice:  Use of undefined constant pphp - assumed 'pphp' in C:\www\vhosts\vsport.pnhost.ru\www\admin\index.php on line 1
+[21-Aug-2013 14:09:10] PHP Notice:  Use of undefined constant pphp - assumed 'pphp' in C:\www\vhosts\vsport.pnhost.ru\www\admin\index.php on line 1
+[21-Aug-2013 14:09:11] PHP Notice:  Use of undefined constant pphp - assumed 'pphp' in C:\www\vhosts\vsport.pnhost.ru\www\admin\index.php on line 1
+[21-Aug-2013 14:09:26] PHP Notice:  Use of undefined constant q1 - assumed 'q1' in C:\www\vhosts\vsport.pnhost.ru\www\admin\index.php on line 1
+[21-Aug-2013 14:09:27] PHP Notice:  Use of undefined constant q1 - assumed 'q1' in C:\www\vhosts\vsport.pnhost.ru\www\admin\index.php on line 1
+[21-Aug-2013 14:10:34] PHP Fatal error:  Call to undefined function fuck() in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 5
+[21-Aug-2013 14:10:36] PHP Fatal error:  Call to undefined function fuck() in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 5
+[21-Aug-2013 14:11:25] PHP Fatal error:  Call to undefined function fuck() in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 4
+[21-Aug-2013 14:13:01] PHP Fatal error:  Call to undefined function fuck() in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 4
+[21-Aug-2013 14:45:34] PHP Fatal error:  Call to undefined function fuck() in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 4
+[21-Aug-2013 15:05:58] PHP Fatal error:  Call to undefined function fuck() in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 4
+[21-Aug-2013 18:52:31] PHP Fatal error:  Call to undefined function fuck() in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 4
+[21-Aug-2013 20:08:19] PHP Fatal error:  Call to undefined function fuck() in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 4
+[21-Aug-2013 20:59:34] PHP Fatal error:  Call to undefined function fuck() in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 4
+[21-Aug-2013 23:20:31] PHP Fatal error:  Call to undefined function fuck() in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 4
+[21-Aug-2013 23:56:33] PHP Fatal error:  Call to undefined function fuck() in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 4
+[22-Aug-2013 00:07:45] PHP Fatal error:  Call to undefined function fuck() in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 4
+[22-Aug-2013 02:13:20] PHP Fatal error:  Call to undefined function fuck() in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 4
+[22-Aug-2013 04:21:14] PHP Fatal error:  Call to undefined function fuck() in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 4
+[22-Aug-2013 04:36:51] PHP Fatal error:  Call to undefined function fuck() in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 4
+[22-Aug-2013 05:55:48] PHP Fatal error:  Call to undefined function fuck() in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 4
+[22-Aug-2013 06:11:12] PHP Fatal error:  Call to undefined function fuck() in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 4
+[22-Aug-2013 07:13:48] PHP Fatal error:  Call to undefined function fuck() in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 4
+[22-Aug-2013 10:44:26] PHP Fatal error:  Call to undefined function fuck() in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 4
+[22-Aug-2013 10:45:38] PHP Fatal error:  Call to undefined function fuck() in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 4
+[22-Aug-2013 10:55:10] PHP Fatal error:  Call to undefined function fuck() in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 4
+[22-Aug-2013 10:55:48] PHP Fatal error:  Call to undefined function fuck() in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 4
+[22-Aug-2013 11:31:21] PHP Fatal error:  Call to undefined function fuck() in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 4
+[22-Aug-2013 11:31:23] PHP Fatal error:  Call to undefined function fuck() in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 4
+[22-Aug-2013 11:31:23] PHP Fatal error:  Call to undefined function fuck() in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 4
+[22-Aug-2013 11:33:32] PHP Fatal error:  Call to undefined function fuck() in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 4
+[22-Aug-2013 11:52:53] PHP Fatal error:  Call to undefined function fuck() in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 4
+[22-Aug-2013 12:05:40] PHP Fatal error:  Call to undefined function fuck() in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 4
+[22-Aug-2013 12:49:04] PHP Fatal error:  Call to undefined function fuck() in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 4
+[22-Aug-2013 13:23:10] PHP Fatal error:  Call to undefined function fuck() in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 4
+[23-Aug-2013 06:48:12] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 32
+[23-Aug-2013 22:47:22] PHP Notice:  Undefined variable: pos in C:\www\vhosts\vsport.pnhost.ru\www\req\events\EventWriter.php on line 98
+[29-Aug-2013 22:17:21] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 32
+[10-Sep-2013 10:03:57] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\www\vhosts\vsport.pnhost.ru\www\req\PDOStatementMySQL.php on line 162
+[11-Sep-2013 01:46:50] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\www\vhosts\vsport.pnhost.ru\www\req\events\EventWriter.php on line 2
+[25-Sep-2013 13:27:13] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 32
+[25-Sep-2013 13:27:14] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 32
+[26-Sep-2013 15:29:02] PHP Warning:  include(content.php) [<a href='function.include'>function.include</a>]: failed to open stream: Operation not permitted in C:\www\vhosts\vsport.pnhost.ru\www\templates\inner_page.tmpl.php on line 9
+[26-Sep-2013 15:29:02] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'content.php' for inclusion (include_path='.;C:\php5\pear') in C:\www\vhosts\vsport.pnhost.ru\www\templates\inner_page.tmpl.php on line 9
+[26-Sep-2013 15:30:48] PHP Fatal error:  Call to private method PhotoGallery::Exhibit() from context '' in C:\www\vhosts\vsport.pnhost.ru\www\gallery\content.php on line 3
+[26-Sep-2013 15:35:36] PHP Fatal error:  Call to private method PhotoGallery::Exhibit() from context '' in C:\www\vhosts\vsport.pnhost.ru\www\gallery\content.php on line 3
+[26-Sep-2013 15:47:40] PHP Fatal error:  Call to private method PhotoGallery::exhibit() from context '' in C:\www\vhosts\vsport.pnhost.ru\www\gallery\content.php on line 3
+[26-Sep-2013 15:47:42] PHP Fatal error:  Call to private method PhotoGallery::exhibit() from context '' in C:\www\vhosts\vsport.pnhost.ru\www\gallery\content.php on line 3
+[26-Sep-2013 16:03:40] PHP Fatal error:  Call to private method PhotoGallery::exhibit() from context '' in C:\www\vhosts\vsport.pnhost.ru\www\gallery\content.php on line 3
+[26-Sep-2013 16:30:10] PHP Fatal error:  Call to private method PhotoGallery::exhibit() from context '' in C:\www\vhosts\vsport.pnhost.ru\www\gallery\content.php on line 3
+[26-Sep-2013 19:52:02] PHP Warning:  include() [<a href='function.include'>function.include</a>]: open_basedir restriction in effect. File(../inc/menu.php) is not within the allowed path(s): (c:/www/vhosts/vsport.pnhost.ru/tmp;c:/www/vhosts/vsport.pnhost.ru/www) in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 49
+[26-Sep-2013 19:52:02] PHP Warning:  include(../inc/menu.php) [<a href='function.include'>function.include</a>]: failed to open stream: Operation not permitted in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 49
+[26-Sep-2013 19:52:02] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../inc/menu.php' for inclusion (include_path='.;C:\php5\pear') in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 49
+[26-Sep-2013 19:52:04] PHP Warning:  include() [<a href='function.include'>function.include</a>]: open_basedir restriction in effect. File(../inc/menu.php) is not within the allowed path(s): (c:/www/vhosts/vsport.pnhost.ru/tmp;c:/www/vhosts/vsport.pnhost.ru/www) in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 49
+[26-Sep-2013 19:52:04] PHP Warning:  include(../inc/menu.php) [<a href='function.include'>function.include</a>]: failed to open stream: Operation not permitted in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 49
+[26-Sep-2013 19:52:04] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../inc/menu.php' for inclusion (include_path='.;C:\php5\pear') in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 49
+[26-Sep-2013 22:40:50] PHP Warning:  include() [<a href='function.include'>function.include</a>]: open_basedir restriction in effect. File(../inc/menu.php) is not within the allowed path(s): (c:/www/vhosts/vsport.pnhost.ru/tmp;c:/www/vhosts/vsport.pnhost.ru/www) in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 49
+[26-Sep-2013 22:40:50] PHP Warning:  include(../inc/menu.php) [<a href='function.include'>function.include</a>]: failed to open stream: Operation not permitted in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 49
+[26-Sep-2013 22:40:50] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../inc/menu.php' for inclusion (include_path='.;C:\php5\pear') in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 49
+[27-Sep-2013 12:49:47] PHP Notice:  Undefined offset:  1 in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 44
+[27-Sep-2013 13:13:15] PHP Notice:  Undefined variable: t in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 49
+[27-Sep-2013 13:13:15] PHP Notice:  Undefined variable: t in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 49
+[27-Sep-2013 15:34:46] PHP Fatal error:  Allowed memory size of 8388608 bytes exhausted (tried to allocate 1600 bytes) in C:\www\vhosts\vsport.pnhost.ru\www\req\Object.php on line 141
+[27-Sep-2013 16:03:09] PHP Notice:  Undefined variable: eventMainListWriter in C:\www\vhosts\vsport.pnhost.ru\www\content.php on line 7
+[27-Sep-2013 16:03:09] PHP Catchable fatal error:  Argument 1 passed to EventsList::write() must implement interface IGenericWriter, null given, called in C:\www\vhosts\vsport.pnhost.ru\www\content.php on line 7 and defined in C:\www\vhosts\vsport.pnhost.ru\www\req\events\EventsList.php on line 184
+[30-Sep-2013 18:08:05] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 6
+[30-Sep-2013 18:08:05] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 6
+[01-Oct-2013 22:17:27] PHP Fatal error:  Class 'eventGlobalListWriter' not found in C:\www\vhosts\vsport.pnhost.ru\www\events\content.php on line 23
+[01-Oct-2013 22:19:19] PHP Fatal error:  Class 'EventGlobalListWriter' not found in C:\www\vhosts\vsport.pnhost.ru\www\events\content.php on line 23
+[01-Oct-2013 22:19:57] PHP Fatal error:  Class 'EventGlobalListWriter' not found in C:\www\vhosts\vsport.pnhost.ru\www\events\content.php on line 24
+[01-Oct-2013 22:26:26] PHP Fatal error:  Class 'EventGlobalListWriter' not found in C:\www\vhosts\vsport.pnhost.ru\www\events\content.php on line 24
+[01-Oct-2013 22:26:27] PHP Fatal error:  Class 'EventGlobalListWriter' not found in C:\www\vhosts\vsport.pnhost.ru\www\events\content.php on line 24
+[01-Oct-2013 22:52:39] PHP Notice:  Undefined variable: total in C:\www\vhosts\vsport.pnhost.ru\www\req\events\EventGlobalListWriter.php on line 65
+[08-Oct-2013 16:17:54] PHP Warning:  include(C:/www/vhosts/vsport.pnhost.ru/www/inc/main_amateur_sport.inc.php) [<a href='function.include'>function.include</a>]: failed to open stream: Permission denied in C:\www\vhosts\vsport.pnhost.ru\www\content.php on line 24
+[08-Oct-2013 16:17:54] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'C:/www/vhosts/vsport.pnhost.ru/www/inc/main_amateur_sport.inc.php' for inclusion (include_path='.;C:\php5\pear') in C:\www\vhosts\vsport.pnhost.ru\www\content.php on line 24
+[09-Oct-2013 16:16:13] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 33
+[26-Oct-2013 15:38:03] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 33
+[29-Oct-2013 11:25:01] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 33
+[30-Oct-2013 03:32:54] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 33
+[30-Oct-2013 09:24:55] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\www\vhosts\vsport.pnhost.ru\www\_pma\libraries\dbi\mysql.dbi.lib.php on line 140
+[30-Oct-2013 10:06:55] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 33
+[01-Nov-2013 15:12:57] PHP Warning:  ZipArchive::close() [<a href='function.ZipArchive-close'>function.ZipArchive-close</a>]: Invalid or unitialized Zip object in C:\www\vhosts\vsport.pnhost.ru\www\req\Object.php on line 213
+[07-Nov-2013 16:31:55] PHP Warning:  rmdir(C:/www/vhosts/vsport.pnhost.ru/www/_images/_extractedFiles) [<a href='function.rmdir'>function.rmdir</a>]: Directory not empty in C:\www\vhosts\vsport.pnhost.ru\www\req\events\EventsList.php on line 84
+[07-Nov-2013 16:37:17] PHP Fatal error:  Allowed memory size of 8388608 bytes exhausted (tried to allocate 198197 bytes) in Unknown on line 0
+[07-Nov-2013 16:40:41] PHP Warning:  ZipArchive::close() [<a href='function.ZipArchive-close'>function.ZipArchive-close</a>]: Invalid or unitialized Zip object in C:\www\vhosts\vsport.pnhost.ru\www\req\Object.php on line 213
+[07-Nov-2013 16:48:39] PHP Warning:  rmdir(C:/www/vhosts/vsport.pnhost.ru/www/_images/_extractedFiles) [<a href='function.rmdir'>function.rmdir</a>]: Directory not empty in C:\www\vhosts\vsport.pnhost.ru\www\req\events\EventsList.php on line 84
+[08-Nov-2013 12:14:16] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 33
+[08-Nov-2013 12:14:17] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 33
+[08-Nov-2013 14:38:34] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 33
+[08-Nov-2013 14:38:35] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 33
+[08-Nov-2013 14:38:37] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 33
+[08-Nov-2013 14:38:37] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 33
+[08-Nov-2013 14:38:45] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 33
+[08-Nov-2013 14:38:45] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 33
+[08-Nov-2013 14:39:18] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 33
+[08-Nov-2013 14:39:19] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 33
+[14-Nov-2013 21:32:02] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\www\vhosts\vsport.pnhost.ru\www\documents\content.php on line 14
+[15-Nov-2013 01:09:08] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 33
+[15-Nov-2013 01:09:09] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 33
+[15-Nov-2013 01:09:09] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 33
+[15-Nov-2013 01:09:10] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 33
+[15-Nov-2013 01:09:11] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 33
+[15-Nov-2013 01:09:16] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 33
+[15-Nov-2013 01:09:45] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 33
+[15-Nov-2013 01:09:46] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 33
+[15-Nov-2013 01:09:47] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 33
+[15-Nov-2013 01:09:48] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 33
+[15-Nov-2013 01:09:49] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 33
+[15-Nov-2013 01:09:50] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 33
+[15-Nov-2013 01:09:51] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 33
+[15-Nov-2013 01:09:52] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 33
+[15-Nov-2013 01:09:53] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 33
+[15-Nov-2013 01:09:54] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 33
+[19-Nov-2013 13:36:46] PHP Fatal error:  Class 'EventSwitcherWriter' not found in C:\www\vhosts\vsport.pnhost.ru\www\content.php on line 2
+[19-Nov-2013 19:37:42] PHP Notice:  Undefined variable: x in C:\www\vhosts\vsport.pnhost.ru\www\req\PhotoGallery.php on line 60
+[19-Nov-2013 19:37:42] PHP Notice:  Undefined variable: y in C:\www\vhosts\vsport.pnhost.ru\www\req\PhotoGallery.php on line 60
+[19-Nov-2013 19:37:42] PHP Notice:  Undefined variable: x in C:\www\vhosts\vsport.pnhost.ru\www\req\PhotoGallery.php on line 60
+[19-Nov-2013 19:37:42] PHP Notice:  Undefined variable: y in C:\www\vhosts\vsport.pnhost.ru\www\req\PhotoGallery.php on line 60
+[19-Nov-2013 19:37:42] PHP Notice:  Undefined variable: x in C:\www\vhosts\vsport.pnhost.ru\www\req\PhotoGallery.php on line 60
+[19-Nov-2013 19:37:42] PHP Notice:  Undefined variable: y in C:\www\vhosts\vsport.pnhost.ru\www\req\PhotoGallery.php on line 60
+[19-Nov-2013 19:37:42] PHP Notice:  Undefined variable: x in C:\www\vhosts\vsport.pnhost.ru\www\req\PhotoGallery.php on line 60
+[19-Nov-2013 19:37:42] PHP Notice:  Undefined variable: y in C:\www\vhosts\vsport.pnhost.ru\www\req\PhotoGallery.php on line 60
+[19-Nov-2013 19:37:42] PHP Notice:  Undefined variable: x in C:\www\vhosts\vsport.pnhost.ru\www\req\PhotoGallery.php on line 60
+[19-Nov-2013 19:37:42] PHP Notice:  Undefined variable: y in C:\www\vhosts\vsport.pnhost.ru\www\req\PhotoGallery.php on line 60
+[19-Nov-2013 19:37:42] PHP Notice:  Undefined variable: x in C:\www\vhosts\vsport.pnhost.ru\www\req\PhotoGallery.php on line 60
+[19-Nov-2013 19:37:42] PHP Notice:  Undefined variable: y in C:\www\vhosts\vsport.pnhost.ru\www\req\PhotoGallery.php on line 60
+[19-Nov-2013 19:37:42] PHP Notice:  Undefined variable: x in C:\www\vhosts\vsport.pnhost.ru\www\req\PhotoGallery.php on line 60
+[19-Nov-2013 19:37:42] PHP Notice:  Undefined variable: y in C:\www\vhosts\vsport.pnhost.ru\www\req\PhotoGallery.php on line 60
+[19-Nov-2013 19:37:42] PHP Notice:  Undefined variable: x in C:\www\vhosts\vsport.pnhost.ru\www\req\PhotoGallery.php on line 60
+[19-Nov-2013 19:37:42] PHP Notice:  Undefined variable: y in C:\www\vhosts\vsport.pnhost.ru\www\req\PhotoGallery.php on line 60
+[19-Nov-2013 19:37:43] PHP Notice:  Undefined variable: x in C:\www\vhosts\vsport.pnhost.ru\www\req\PhotoGallery.php on line 60
+[19-Nov-2013 19:37:43] PHP Notice:  Undefined variable: y in C:\www\vhosts\vsport.pnhost.ru\www\req\PhotoGallery.php on line 60
+[19-Nov-2013 19:37:43] PHP Notice:  Undefined variable: x in C:\www\vhosts\vsport.pnhost.ru\www\req\PhotoGallery.php on line 60
+[19-Nov-2013 19:37:43] PHP Notice:  Undefined variable: y in C:\www\vhosts\vsport.pnhost.ru\www\req\PhotoGallery.php on line 60
+[19-Nov-2013 19:37:43] PHP Notice:  Undefined variable: x in C:\www\vhosts\vsport.pnhost.ru\www\req\PhotoGallery.php on line 60
+[19-Nov-2013 19:37:43] PHP Notice:  Undefined variable: y in C:\www\vhosts\vsport.pnhost.ru\www\req\PhotoGallery.php on line 60
+[19-Nov-2013 19:37:43] PHP Notice:  Undefined variable: x in C:\www\vhosts\vsport.pnhost.ru\www\req\PhotoGallery.php on line 60
+[19-Nov-2013 19:37:43] PHP Notice:  Undefined variable: y in C:\www\vhosts\vsport.pnhost.ru\www\req\PhotoGallery.php on line 60
+[19-Nov-2013 19:37:43] PHP Notice:  Undefined variable: x in C:\www\vhosts\vsport.pnhost.ru\www\req\PhotoGallery.php on line 60
+[19-Nov-2013 19:37:43] PHP Notice:  Undefined variable: y in C:\www\vhosts\vsport.pnhost.ru\www\req\PhotoGallery.php on line 60
+[19-Nov-2013 19:37:43] PHP Notice:  Undefined variable: x in C:\www\vhosts\vsport.pnhost.ru\www\req\PhotoGallery.php on line 60
+[19-Nov-2013 19:37:43] PHP Notice:  Undefined variable: y in C:\www\vhosts\vsport.pnhost.ru\www\req\PhotoGallery.php on line 60
+[19-Nov-2013 19:37:43] PHP Notice:  Undefined variable: x in C:\www\vhosts\vsport.pnhost.ru\www\req\PhotoGallery.php on line 60
+[19-Nov-2013 19:37:43] PHP Notice:  Undefined variable: y in C:\www\vhosts\vsport.pnhost.ru\www\req\PhotoGallery.php on line 60
+[19-Nov-2013 19:37:43] PHP Notice:  Undefined variable: x in C:\www\vhosts\vsport.pnhost.ru\www\req\PhotoGallery.php on line 60
+[19-Nov-2013 19:37:43] PHP Notice:  Undefined variable: y in C:\www\vhosts\vsport.pnhost.ru\www\req\PhotoGallery.php on line 60
+[19-Nov-2013 19:37:43] PHP Notice:  Undefined variable: x in C:\www\vhosts\vsport.pnhost.ru\www\req\PhotoGallery.php on line 60
+[19-Nov-2013 19:37:43] PHP Notice:  Undefined variable: y in C:\www\vhosts\vsport.pnhost.ru\www\req\PhotoGallery.php on line 60
+[19-Nov-2013 19:37:43] PHP Notice:  Undefined variable: x in C:\www\vhosts\vsport.pnhost.ru\www\req\PhotoGallery.php on line 60
+[19-Nov-2013 19:37:43] PHP Notice:  Undefined variable: y in C:\www\vhosts\vsport.pnhost.ru\www\req\PhotoGallery.php on line 60
+[19-Nov-2013 19:37:43] PHP Notice:  Undefined variable: x in C:\www\vhosts\vsport.pnhost.ru\www\req\PhotoGallery.php on line 60
+[19-Nov-2013 19:37:43] PHP Notice:  Undefined variable: y in C:\www\vhosts\vsport.pnhost.ru\www\req\PhotoGallery.php on line 60
+[19-Nov-2013 19:37:43] PHP Notice:  Undefined variable: x in C:\www\vhosts\vsport.pnhost.ru\www\req\PhotoGallery.php on line 60
+[19-Nov-2013 19:37:43] PHP Notice:  Undefined variable: y in C:\www\vhosts\vsport.pnhost.ru\www\req\PhotoGallery.php on line 60
+[22-Nov-2013 14:32:40] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[22-Nov-2013 14:32:40] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[22-Nov-2013 14:32:41] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[22-Nov-2013 14:32:41] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[22-Nov-2013 14:32:41] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[22-Nov-2013 14:32:42] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[22-Nov-2013 14:32:42] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[22-Nov-2013 14:32:42] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[22-Nov-2013 14:32:42] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[22-Nov-2013 14:32:43] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[22-Nov-2013 14:32:43] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[22-Nov-2013 14:32:43] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[22-Nov-2013 14:32:44] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[22-Nov-2013 14:32:44] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[22-Nov-2013 14:32:44] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[22-Nov-2013 14:32:44] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[22-Nov-2013 14:32:45] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[22-Nov-2013 14:32:45] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[22-Nov-2013 14:32:45] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[22-Nov-2013 14:32:45] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[22-Nov-2013 14:32:46] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[22-Nov-2013 14:32:46] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[22-Nov-2013 14:32:46] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[22-Nov-2013 14:32:46] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[22-Nov-2013 14:32:47] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[22-Nov-2013 14:32:47] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[22-Nov-2013 14:32:47] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[22-Nov-2013 14:32:47] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[22-Nov-2013 14:32:48] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[22-Nov-2013 14:32:48] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[22-Nov-2013 14:32:48] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[22-Nov-2013 14:32:48] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[22-Nov-2013 14:32:49] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[22-Nov-2013 14:32:49] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[22-Nov-2013 14:32:49] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[22-Nov-2013 14:32:50] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[22-Nov-2013 14:32:51] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[22-Nov-2013 14:32:51] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[22-Nov-2013 14:32:52] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[22-Nov-2013 14:32:52] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[22-Nov-2013 14:32:52] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[22-Nov-2013 14:32:52] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[22-Nov-2013 14:32:53] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[22-Nov-2013 14:32:53] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[22-Nov-2013 14:32:53] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[22-Nov-2013 14:32:53] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[22-Nov-2013 14:32:53] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[22-Nov-2013 14:32:54] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[23-Nov-2013 11:46:26] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[27-Nov-2013 18:52:37] PHP Warning:  ZipArchive::close() [<a href='function.ZipArchive-close'>function.ZipArchive-close</a>]: Invalid or unitialized Zip object in C:\www\vhosts\vsport.pnhost.ru\www\req\Object.php on line 213
+[01-Dec-2013 13:06:19] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[01-Dec-2013 13:06:19] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[05-Dec-2013 04:16:42] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[05-Dec-2013 04:16:47] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[05-Dec-2013 04:16:48] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[05-Dec-2013 04:16:48] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[05-Dec-2013 04:16:48] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[05-Dec-2013 04:16:48] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[05-Dec-2013 04:16:48] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[05-Dec-2013 04:16:49] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[05-Dec-2013 04:16:59] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[05-Dec-2013 04:16:59] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[05-Dec-2013 04:17:00] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[05-Dec-2013 04:17:00] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[05-Dec-2013 04:17:00] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[05-Dec-2013 04:17:00] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[05-Dec-2013 04:17:01] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[08-Dec-2013 17:20:08] PHP Warning:  file_exists() [<a href='function.file-exists'>function.file-exists</a>]: open_basedir restriction in effect. File(C:/www/vhosts/vsport.pnhost.ru/www/events/descriptions/999999.9 union all select (select concat(0x7e,0x27,count(table_name),0x27,0x7e) from `information_schema`.tables where table_schema=0x77315F7673706F7274),0x31303235343830303536,0x31303235343830303536--.php) is not within the allowed path(s): (c:/www/vhosts/vsport.pnhost.ru/tmp;c:/www/vhosts/vsport.pnhost.ru/www) in C:\www\vhosts\vsport.pnhost.ru\www\req\events\EventWriter.php on line 67
+[08-Dec-2013 17:20:08] PHP Warning:  file_exists() [<a href='function.file-exists'>function.file-exists</a>]: open_basedir restriction in effect. File(C:/www/vhosts/vsport.pnhost.ru/www/events/descriptions/999999.9 union all select (select concat(0x7e,0x27,count(table_name),0x27,0x7e) from `information_schema`.tables where table_schema=0x77315F7673706F7274),0x31303235343830303536,0x31303235343830303536--.php) is not within the allowed path(s): (c:/www/vhosts/vsport.pnhost.ru/tmp;c:/www/vhosts/vsport.pnhost.ru/www) in C:\www\vhosts\vsport.pnhost.ru\www\req\events\EventWriter.php on line 67
+[08-Dec-2013 17:20:08] PHP Warning:  file_exists() [<a href='function.file-exists'>function.file-exists</a>]: open_basedir restriction in effect. File(C:/www/vhosts/vsport.pnhost.ru/www/events/descriptions/999999.9 union all select (select concat(0x7e,0x27,unhex(Hex(cast(group_concat(table_name) as char))),0x27,0x7e) from `information_schema`.tables where table_schema=0x77315F7673706F7274),0x31303235343830303536,0x31303235343830303536--.php) is not within the allowed path(s): (c:/www/vhosts/vsport.pnhost.ru/tmp;c:/www/vhosts/vsport.pnhost.ru/www) in C:\www\vhosts\vsport.pnhost.ru\www\req\events\EventWriter.php on line 67
+[08-Dec-2013 17:20:29] PHP Warning:  file_exists() [<a href='function.file-exists'>function.file-exists</a>]: open_basedir restriction in effect. File(C:/www/vhosts/vsport.pnhost.ru/www/events/descriptions/999999.9 union all select (select distinct concat(0x7e,0x27,unhex(Hex(cast(schema_name as char))),0x27,0x7e) from `information_schema`.schemata limit 0,1),0x31303235343830303536,0x31303235343830303536--.php) is not within the allowed path(s): (c:/www/vhosts/vsport.pnhost.ru/tmp;c:/www/vhosts/vsport.pnhost.ru/www) in C:\www\vhosts\vsport.pnhost.ru\www\req\events\EventWriter.php on line 67
+[08-Dec-2013 17:20:29] PHP Warning:  file_exists() [<a href='function.file-exists'>function.file-exists</a>]: open_basedir restriction in effect. File(C:/www/vhosts/vsport.pnhost.ru/www/events/descriptions/999999.9 union all select (select distinct concat(0x7e,0x27,unhex(Hex(cast(schema_name as char))),0x27,0x7e) from `information_schema`.schemata limit 1,1),0x31303235343830303536,0x31303235343830303536--.php) is not within the allowed path(s): (c:/www/vhosts/vsport.pnhost.ru/tmp;c:/www/vhosts/vsport.pnhost.ru/www) in C:\www\vhosts\vsport.pnhost.ru\www\req\events\EventWriter.php on line 67
+[08-Dec-2013 17:20:30] PHP Warning:  file_exists() [<a href='function.file-exists'>function.file-exists</a>]: open_basedir restriction in effect. File(C:/www/vhosts/vsport.pnhost.ru/www/events/descriptions/999999.9 union all select (select distinct concat(0x7e,0x27,unhex(Hex(cast(schema_name as char))),0x27,0x7e) from `information_schema`.schemata limit 2,1),0x31303235343830303536,0x31303235343830303536--.php) is not within the allowed path(s): (c:/www/vhosts/vsport.pnhost.ru/tmp;c:/www/vhosts/vsport.pnhost.ru/www) in C:\www\vhosts\vsport.pnhost.ru\www\req\events\EventWriter.php on line 67
+[19-Dec-2013 08:48:09] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[22-Dec-2013 05:37:04] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[24-Dec-2013 05:49:52] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[07-Jan-2014 23:54:28] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[18-Jan-2014 08:35:37] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[23-Jan-2014 20:49:39] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[05-Feb-2014 16:40:03] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[07-Feb-2014 02:52:50] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[07-Feb-2014 02:52:50] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[10-Sep-2013 09:29:10] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[10-Sep-2013 20:13:57] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[13-Sep-2013 20:13:38] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[01-Mar-2014 01:01:30] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[01-Mar-2014 01:01:31] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[14-Mar-2014 10:28:25] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[14-Mar-2014 13:13:20] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[14-Mar-2014 18:39:36] PHP Fatal error:  Class 'EventsList' not found in C:\www\vhosts\vsport.pnhost.ru\www\admin\content.php on line 28
+[15-Mar-2014 00:58:39] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[15-Mar-2014 00:58:42] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[15-Mar-2014 00:58:44] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[15-Mar-2014 00:58:45] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[15-Mar-2014 00:58:46] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[15-Mar-2014 00:58:48] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[15-Mar-2014 00:58:49] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[15-Mar-2014 00:58:50] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[15-Mar-2014 00:58:51] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[15-Mar-2014 00:58:52] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[15-Mar-2014 00:58:54] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[15-Mar-2014 00:58:55] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[15-Mar-2014 00:58:56] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[15-Mar-2014 00:58:57] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[15-Mar-2014 00:58:58] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[15-Mar-2014 00:59:00] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[15-Mar-2014 00:59:01] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[15-Mar-2014 00:59:03] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[15-Mar-2014 00:59:04] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[15-Mar-2014 00:59:05] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[15-Mar-2014 00:59:06] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[15-Mar-2014 00:59:08] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[15-Mar-2014 00:59:14] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[15-Mar-2014 00:59:15] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[15-Mar-2014 00:59:16] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[15-Mar-2014 00:59:17] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[15-Mar-2014 00:59:18] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[15-Mar-2014 00:59:19] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[15-Mar-2014 00:59:20] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[15-Mar-2014 00:59:21] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[15-Mar-2014 00:59:22] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[15-Mar-2014 00:59:24] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[15-Mar-2014 00:59:25] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[18-Mar-2014 15:46:01] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[21-Mar-2014 10:30:11] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[24-Mar-2014 06:52:32] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[25-Mar-2014 19:01:51] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[25-Mar-2014 19:01:53] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[25-Mar-2014 19:01:54] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[25-Mar-2014 19:01:55] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[25-Mar-2014 19:01:55] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[25-Mar-2014 19:01:56] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[25-Mar-2014 19:01:57] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[25-Mar-2014 19:01:58] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[25-Mar-2014 19:01:58] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[25-Mar-2014 19:01:59] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[25-Mar-2014 19:02:00] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[25-Mar-2014 19:02:01] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[25-Mar-2014 19:02:01] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[25-Mar-2014 19:02:02] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[25-Mar-2014 19:02:03] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[25-Mar-2014 19:02:03] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[25-Mar-2014 19:02:04] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[25-Mar-2014 19:02:05] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[25-Mar-2014 19:02:06] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[25-Mar-2014 19:02:06] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[25-Mar-2014 19:02:07] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[25-Mar-2014 19:02:07] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[25-Mar-2014 19:02:15] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[25-Mar-2014 19:02:15] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[26-Mar-2014 15:57:36] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[27-Mar-2014 04:46:02] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[27-Mar-2014 04:46:03] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[28-Mar-2014 15:54:53] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[28-Mar-2014 15:54:53] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[28-Mar-2014 15:54:54] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[28-Mar-2014 15:54:54] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[28-Mar-2014 15:54:54] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[28-Mar-2014 15:54:56] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[28-Mar-2014 15:54:57] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[28-Mar-2014 15:54:57] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[28-Mar-2014 15:54:57] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[28-Mar-2014 15:54:57] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[28-Mar-2014 15:54:57] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[28-Mar-2014 15:54:58] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[28-Mar-2014 15:54:58] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[28-Mar-2014 15:54:58] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[28-Mar-2014 15:54:58] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[28-Mar-2014 15:54:59] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[28-Mar-2014 15:54:59] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[28-Mar-2014 15:55:00] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[28-Mar-2014 15:55:00] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[28-Mar-2014 15:55:00] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[28-Mar-2014 15:55:00] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[28-Mar-2014 15:55:01] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[28-Mar-2014 15:55:01] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[28-Mar-2014 15:55:02] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[28-Mar-2014 15:55:02] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[28-Mar-2014 16:20:04] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[30-Mar-2014 10:34:01] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[01-Apr-2014 03:52:35] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[01-Apr-2014 03:52:40] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[01-Apr-2014 03:52:41] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[01-Apr-2014 03:52:42] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[01-Apr-2014 03:52:42] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[01-Apr-2014 03:52:44] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[01-Apr-2014 03:52:46] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[01-Apr-2014 03:52:47] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[01-Apr-2014 03:52:48] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[01-Apr-2014 03:52:52] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[01-Apr-2014 03:52:53] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[01-Apr-2014 03:52:54] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[01-Apr-2014 03:52:55] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[01-Apr-2014 03:52:57] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[01-Apr-2014 03:52:59] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[01-Apr-2014 03:53:00] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[01-Apr-2014 03:53:01] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[01-Apr-2014 03:53:03] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[01-Apr-2014 03:53:05] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[01-Apr-2014 03:53:06] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[01-Apr-2014 03:53:07] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[01-Apr-2014 03:53:08] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[01-Apr-2014 03:53:12] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[01-Apr-2014 03:53:13] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[02-Apr-2014 18:31:18] PHP Fatal error:  Allowed memory size of 8388608 bytes exhausted (tried to allocate 8000 bytes) in C:\www\vhosts\vsport.pnhost.ru\www\req\Object.php on line 141
+[03-Apr-2014 14:32:15] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[03-Apr-2014 14:32:17] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[03-Apr-2014 14:32:18] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[03-Apr-2014 14:32:18] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[03-Apr-2014 14:32:19] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[03-Apr-2014 14:32:20] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[03-Apr-2014 14:32:20] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[03-Apr-2014 14:32:21] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[03-Apr-2014 14:32:22] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[03-Apr-2014 14:32:23] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[03-Apr-2014 14:32:23] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[03-Apr-2014 14:32:24] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[03-Apr-2014 14:32:25] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[03-Apr-2014 14:32:26] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[03-Apr-2014 14:32:26] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[03-Apr-2014 14:32:27] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[03-Apr-2014 14:32:28] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[03-Apr-2014 14:32:29] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[03-Apr-2014 14:32:29] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[03-Apr-2014 14:32:30] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[03-Apr-2014 14:32:31] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[03-Apr-2014 14:32:31] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[03-Apr-2014 14:32:34] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[03-Apr-2014 14:32:35] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[11-Apr-2014 18:10:17] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[11-Apr-2014 20:18:16] PHP Warning:  ZipArchive::close() [<a href='function.ZipArchive-close'>function.ZipArchive-close</a>]: Invalid or unitialized Zip object in C:\www\vhosts\vsport.pnhost.ru\www\req\Object.php on line 213
+[11-Apr-2014 20:20:29] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\www\vhosts\vsport.pnhost.ru\www\_pma\libraries\dbi\mysql.dbi.lib.php on line 140
+[11-Apr-2014 22:41:37] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[14-Apr-2014 05:33:28] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[14-Apr-2014 05:42:21] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[14-Apr-2014 12:34:20] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[14-Apr-2014 12:34:22] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[14-Apr-2014 12:34:23] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[14-Apr-2014 12:34:24] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[14-Apr-2014 12:34:24] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[14-Apr-2014 12:34:25] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[14-Apr-2014 12:34:26] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[14-Apr-2014 12:34:27] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[14-Apr-2014 12:34:27] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[14-Apr-2014 12:34:28] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[14-Apr-2014 12:34:29] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[14-Apr-2014 12:34:30] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[14-Apr-2014 12:34:31] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[14-Apr-2014 12:34:31] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[14-Apr-2014 12:34:32] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[14-Apr-2014 12:34:33] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[14-Apr-2014 12:34:33] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[14-Apr-2014 12:34:34] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[14-Apr-2014 12:34:35] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[14-Apr-2014 12:34:35] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[14-Apr-2014 12:34:36] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[14-Apr-2014 12:34:37] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[14-Apr-2014 12:34:39] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[14-Apr-2014 12:34:40] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[15-Apr-2014 04:57:24] PHP Fatal error:  Class 'EventsList' not found in C:\www\vhosts\vsport.pnhost.ru\www\admin\content.php on line 28
+[17-Apr-2014 02:06:55] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[17-Apr-2014 02:06:57] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[17-Apr-2014 02:06:58] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[17-Apr-2014 02:06:58] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[17-Apr-2014 02:06:59] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[17-Apr-2014 02:07:00] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[17-Apr-2014 02:07:01] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[17-Apr-2014 02:07:02] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[17-Apr-2014 02:07:03] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[17-Apr-2014 02:07:04] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[17-Apr-2014 02:07:05] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[17-Apr-2014 02:07:06] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[17-Apr-2014 02:07:06] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[17-Apr-2014 02:07:07] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[17-Apr-2014 02:07:08] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[17-Apr-2014 02:07:09] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[17-Apr-2014 02:07:10] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[17-Apr-2014 02:07:11] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[17-Apr-2014 02:07:11] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[17-Apr-2014 02:07:12] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[17-Apr-2014 02:07:14] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[17-Apr-2014 02:07:14] PHP Notice:  Undefined index:  HTTP_USER_AGENT in C:\www\vhosts\vsport.pnhost.ru\www\inc\main_head.inc.php on line 34
+[17-Apr-2014 12:14:32] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\www\vhosts\vsport.pnhost.ru\www\_pma\libraries\dbi\mysql.dbi.lib.php on line 140
+[17-Apr-2014 12:25:49] PHP Fatal error:  Allowed memory size of 8388608 bytes exhausted (tried to allocate 960117 bytes) in Unknown on line 0
+[17-Apr-2014 12:26:50] PHP Fatal error:  Allowed memory size of 8388608 bytes exhausted (tried to allocate 988156 bytes) in Unknown on line 0
+[18-Apr-2014 09:36:19] PHP Fatal error:  Allowed memory size of 8388608 bytes exhausted (tried to allocate 18432 bytes) in C:\www\vhosts\vsport.pnhost.ru\www\req\Object.php on line 141

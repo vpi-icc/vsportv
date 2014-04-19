@@ -1,0 +1,154 @@
+/* News style */
+
+.photo-insertion {
+	display: block;
+	margin: 5px 15px 5px 0;
+	float: left;	
+	border: 4px solid #eee;
+}
+
+/*==== Main newsblock ====*/
+
+.main-hot {
+	height: 200px;
+	width: 847px;
+	overflow: hidden;
+	margin-bottom: 20px;
+	position: relative;	
+	line-height: 1.3;
+	border-radius: 6px;
+	border: 1px solid #aaa;
+}
+
+.main-hot .img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 300px;
+	height: 200px;
+	overflow: hidden;
+}
+
+.tophot { /* UL style */
+	list-style: none;
+	position: absolute;
+	top: 0;
+	left: 300px;
+	width: 400px;
+	margin-left: 0;
+	padding-left: 0;
+	/* border-right:1px solid #e6e6e6; */
+	box-shadow: -2px 0 1px #999;
+	height: 200px;
+	z-index: 5;
+}
+
+.tophot li {
+	height: 57px;
+	border-bottom: 1px solid #d3d3d4;
+	padding: 6px 8px 4px 21px;
+	font-size: 1.25em;
+	line-height: 1.2;
+	position: relative;
+	width: 517px;
+	z-index: 5;
+	/* border: 1px solid red; */
+	/* overflow: hidden; */
+	/* border-radius: 0 2px 2px 0; */
+	
+}
+
+.tophot li div.fadeout,
+.tophot li.here div.fadeout {
+	width: 15px;
+	height: 100%;	
+	position: absolute;
+	right: 0;
+	top: 0;
+	background-repeat: repeat-y;
+}
+
+.tophot li div.fadeout {
+	background-image: url("/_images/_mainhot/fadeout.png");
+	/* border-radius: 0 10px 10px 0; */
+}
+
+.tophot li.here div.fadeout {
+	background-image: url("/_images/_mainhot/fadeout_here.png");
+}
+
+.tophot a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.tophot li.here {
+	background:url("/_images/_mainhot/tophot-str.png") repeat-x 0 0;
+	color: #262626;
+	/* border-top: 1px solid #d3d3d4; */
+}
+
+.tophot li#tophot1.here,
+.tophot li#tophot1 div.fadeout {
+	border-radius: 0 10px 0 0;
+}
+
+.tophot li#tophot3.here,
+.tophot li#tophot3 div.fadeout {
+	border-radius: 0 0 10px 0;
+}
+
+.tophot li.here a {
+	color: #262626;
+	text-shadow: #fff 0 1px 0;
+}
+.tophot li.here a span {
+	font-weight:normal;
+}
+.tophot li.here i {
+	display: block;
+	width: 14px;
+	height: 21px;
+	position: absolute;
+	top: 32px;
+	left: -13px;
+	background: url("/_images/_mainhot/hotarr.gif") no-repeat 0 0;
+	z-index: 5;
+}
+.tophot li span {
+	display: block;
+	font-size: .45em;
+	color: #848484;
+	font-weight: normal;
+	float: right;
+	margin-top: 1px;
+	margin-right: 5px;
+}
+
+.tophot li h1 {
+	font-size: 18px;
+	height: 20px;
+	width: 600px;
+	overflow: hidden;
+	margin: 0 0 5px 0;
+	color: #FF5500;
+}
+
+.tophot li p {
+	font-size: 11px;
+	color: #555;	
+	padding-left: 1px;
+	padding-right: 4px;
+	height: 28px;
+	overflow: hidden;
+	margin: 0;
+}
+
+#tophot2 {
+	position:absolute;
+	top: 68px;
+}
+#tophot3 {
+	position:absolute;
+	top: 136px;
+}

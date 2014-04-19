@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<!--<?xml-stylesheet type="text/xsl" href="receipt.xsl"?>-->
+<Entry name="Бурмистрова Е.А." account="0016-0001-0024" address="1 БАЗА МПС, Первая, д.2/4" period="Октябрь 2012   " tenants="2" wateringArea="" paymentDeadline="10.11.12">
+<BankDetails organization="МУП &quot;Водоканал&quot;" settlementAccount="40702810111160101085" bank="Волжское ОСБ 8553 г.Волжский" BIC="041806647" loroAccount="30101810100000000647" TIN="3435000932" RRC="343501001"/>
+<Charge>
+<ChargeString service="Вода на хоз. бытовые нужды" amount="2.44" rate="11.95" sum="29.16" recalc="0.00" paymentSum="29.16"/>
+</Charge>
+<LastPayment date="27.12.11" sum="307.08">
+</LastPayment>
+<Totals>
+<TotalsString totalCharged="29.16" startStateName="Задолженность за предыдущие расчетные периоды:" startState="239.24" paidForPeriod="0.00" totalString="ИТОГО К ОПЛАТЕ:" total="268.40"/>
+</Totals>
+<Regime>
+Приемные дни с понедельника по четверг с 8-00 до 17-00 (12-13 обед)
+</Regime>
+<Contacts>
+т.  45-45-45, факс  31-69-91, e-mail: ao@vkanal.ru, сайт: http://www.vkanal.ru
+</Contacts>
+</Entry>
