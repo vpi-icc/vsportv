@@ -4,6 +4,8 @@ class DB
  	private $dsn = 'mysql:dbname=w1_vsport;host=localhost';
 	private $dbuser = 'w1_vsport';
 	private $dbpass = 'vsport';
+    //private $dbuser = 'root';
+    //private $dbpass = '';
 	private $options = array(
 		PDO::ATTR_PERSISTENT => false,
 		PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION);

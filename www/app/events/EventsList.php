@@ -37,7 +37,7 @@ class EventsList extends Object implements IManageable
 					
 		if ( $this->dbh->exec($query) == 0 )
 		{
-			$this->status = 'Ошибка при добавлении мероприятия в базу:<br />';
+			$this->status = 'РћС€РёР±РєР° РїСЂРё РґРѕР±Р°РІР»РµРЅРёРё РјРµСЂРѕРїСЂРёСЏС‚РёСЏ РІ Р±Р°Р·Сѓ:<br />';
 			$this->status .= $query;
 			return false;
 		}
@@ -48,14 +48,14 @@ class EventsList extends Object implements IManageable
 		$descriptionDir = $_SERVER['DOCUMENT_ROOT'] . '/events/descriptions';
 		if ( !file_exists($descriptionDir) && !mkdir($descriptionDir, 0777) )
 		{
-			$this->status = 'Не удалось создать директорию для хранения описания события';	
+			$this->status = 'РќРµ СѓРґР°Р»РѕСЃСЊ СЃРѕР·РґР°С‚СЊ РґРёСЂРµРєС‚РѕСЂРёСЋ РґР»СЏ С…СЂР°РЅРµРЅРёСЏ РѕРїРёСЃР°РЅРёСЏ СЃРѕР±С‹С‚РёСЏ';	
 			return false;
 		}
 
 		$descriptionFile = $descriptionDir . '/' . $eventId . '.php';
 		if ( !file_put_contents($descriptionFile, $keyValueData['description']) )
 		{
-			$this->status = 'Не удалось записать описание события в&nbsp;файл';
+			$this->status = 'РќРµ СѓРґР°Р»РѕСЃСЊ Р·Р°РїРёСЃР°С‚СЊ РѕРїРёСЃР°РЅРёРµ СЃРѕР±С‹С‚РёСЏ РІ&nbsp;С„Р°Р№Р»';
 			return false;
 		}
 		
@@ -79,7 +79,7 @@ class EventsList extends Object implements IManageable
 				}
 				if ( !empty($this->errorLog) )
 				{
-					$this->status = 'Изображения успешно добавлены, однако, в&nbsp;процессе выполнения запроса произошли следующие ошибки:' . implode('<br />', $errorLog);
+					$this->status = 'РР·РѕР±СЂР°Р¶РµРЅРёСЏ СѓСЃРїРµС€РЅРѕ РґРѕР±Р°РІР»РµРЅС‹, РѕРґРЅР°РєРѕ, РІ&nbsp;РїСЂРѕС†РµСЃСЃРµ РІС‹РїРѕР»РЅРµРЅРёСЏ Р·Р°РїСЂРѕСЃР° РїСЂРѕРёР·РѕС€Р»Рё СЃР»РµРґСѓСЋС‰РёРµ РѕС€РёР±РєРё:' . implode('<br />', $errorLog);
 				}
 				rmdir($extractTo);				
 			}
@@ -95,12 +95,12 @@ class EventsList extends Object implements IManageable
 				
 			if ( !$this->dbh->exec($query) )
 			{
-				$this->status = 'Не удалось установить обложку мероприятия';
+				$this->status = 'РќРµ СѓРґР°Р»РѕСЃСЊ СѓСЃС‚Р°РЅРѕРІРёС‚СЊ РѕР±Р»РѕР¶РєСѓ РјРµСЂРѕРїСЂРёСЏС‚РёСЏ';
 				return false;
 			}
 		}
 
-		$this->status = 'Мероприятие успешно добавлено в базу<br />';		
+		$this->status = 'РњРµСЂРѕРїСЂРёСЏС‚РёРµ СѓСЃРїРµС€РЅРѕ РґРѕР±Р°РІР»РµРЅРѕ РІ Р±Р°Р·Сѓ<br />';		
 		return true;
 	}
 	
@@ -127,7 +127,7 @@ class EventsList extends Object implements IManageable
 		$imagesize = getimagesize($original_file);	
 		if ( $imagesize === false )
 		{
-			$this->status = 'Не удалось получить размеры изображения:<br />';
+			$this->status = 'РќРµ СѓРґР°Р»РѕСЃСЊ РїРѕР»СѓС‡РёС‚СЊ СЂР°Р·РјРµСЂС‹ РёР·РѕР±СЂР°Р¶РµРЅРёСЏ:<br />';
 			$this->status .= $original_file;
 			return false;
 		}
@@ -142,7 +142,7 @@ class EventsList extends Object implements IManageable
 				
 		if ( $this->dbh->exec($query) == 0 )
 		{
-			$this->status = 'Ошибка при добавлении изображения в&nbsp;базу:<br />';
+			$this->status = 'РћС€РёР±РєР° РїСЂРё РґРѕР±Р°РІР»РµРЅРёРё РёР·РѕР±СЂР°Р¶РµРЅРёСЏ РІ&nbsp;Р±Р°Р·Сѓ:<br />';
 			$this->status .= $query . '<br />';
 			$db_errormsg = $this->dbh->errorInfo();						
 			$this->status .= $db_errormsg[2];

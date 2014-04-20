@@ -38,7 +38,7 @@ class EventSwitcherWriter extends GenericWriter
 				
 		if ( count($events) < 3 )
 		{
-			$this->status = 'В базе недостаточно мероприятий для отображения данного элемента';
+			$this->status = 'Р’ Р±Р°Р·Рµ РЅРµРґРѕСЃС‚Р°С‚РѕС‡РЅРѕ РјРµСЂРѕРїСЂРёСЏС‚РёР№ РґР»СЏ РѕС‚РѕР±СЂР°Р¶РµРЅРёСЏ РґР°РЅРЅРѕРіРѕ СЌР»РµРјРµРЅС‚Р°';
 			$this->showError($this->status);
 			return false;
 		}
@@ -60,9 +60,10 @@ class EventSwitcherWriter extends GenericWriter
 		global $selectedEvents;
 		$replace = array();
 		foreach ( $events as $event )
-		{	
+		{
+            $event['title'] = iconv('Windows-1251', 'UTF-8', $event['title']);
 			$selectedEvents[] = $event['id'];
-			$replace = array_merge($replace, array($event['id'], $event['title'], $event['summary']));						
+			$replace = array_merge($replace, array($event['id'], $event['title'], $event['summary']));
 			$image_src = '/_images/events/' . $event['id'] . '/' . $event['id_cover'] . '_large.jpg';			
 			$replace[] = $image_src;			
 		}

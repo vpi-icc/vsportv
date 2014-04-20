@@ -8,7 +8,7 @@ class EventWriter extends GenericWriter
 	{
 		if ( (int)$id <= 0 )
 		{
-			$this->status = 'Неверный номер мероприятия';
+			$this->status = 'РќРµРІРµСЂРЅС‹Р№ РЅРѕРјРµСЂ РјРµСЂРѕРїСЂРёСЏС‚РёСЏ';
 			$this->showError($this->status);
 			return false;
 		}
@@ -30,7 +30,7 @@ class EventWriter extends GenericWriter
 		
 		if ( empty($events) )
 		{
-			$this->status = 'Выбранное мероприятие не&nbsp;существует';
+			$this->status = 'Р’С‹Р±СЂР°РЅРЅРѕРµ РјРµСЂРѕРїСЂРёСЏС‚РёРµ РЅРµ&nbsp;СЃСѓС‰РµСЃС‚РІСѓРµС‚';
 			$this->showError($this->status);
 			return false;
 		}
@@ -44,7 +44,9 @@ class EventWriter extends GenericWriter
 		{
 			$label = '{' . $label . '}';
 		}
-		
+
+        $event['title'] = iconv('windows-1251', 'utf-8', $event['title']);
+        $event['summary'] = iconv('windows-1251', 'utf-8', $event['summary']);
 		$replace = array($event['title'], $event['summary']);
 		
 		$image_src = 'http://' . $_SERVER['HTTP_HOST'] . '/_images';
@@ -63,16 +65,16 @@ class EventWriter extends GenericWriter
 		$replace[] = $cover;		
 		$replace[] = $image_src;		
 		
-		$descriptionFile = $_SERVER['DOCUMENT_ROOT'] . '/events/descriptions/' . $this->eventId . '.php';
+		$descriptionFile = $_SERVER['DOCUMENT_ROOT'] . '/data/press/' . $this->eventId . '.php';
 		if ( !file_exists($descriptionFile) )
 		{			
-			$this->status = 'Файл описания для данного мероприятия не&nbsp;найден';
+			$this->status = 'Р¤Р°Р№Р» РѕРїРёСЃР°РЅРёСЏ РґР»СЏ РґР°РЅРЅРѕРіРѕ РјРµСЂРѕРїСЂРёСЏС‚РёСЏ РЅРµ&nbsp;РЅР°Р№РґРµРЅ';
 			$replace[] = '<div class="error">' . $this->status . '</div>';
 		}
 		else		
 		{
 			$contents = file_get_contents($descriptionFile);
-			
+            $contents = iconv('windows-1251', 'utf-8', $contents);
 			$query = "
 				SELECT id, orientation
 				FROM kfkis_photos
@@ -84,14 +86,14 @@ class EventWriter extends GenericWriter
 			/*
 			if ( empty($photosList) )
 			{
-				$this->status = 'Нет фотографий с&nbsp;данного мероприятия';
+				$this->status = 'РќРµС‚ С„РѕС‚РѕРіСЂР°С„РёР№ СЃ&nbsp;РґР°РЅРЅРѕРіРѕ РјРµСЂРѕРїСЂРёСЏС‚РёСЏ';
 				$replace[] = '<div class="notice">' . $this->status . '</div>';
 			}
 			*/
 			//			$gallery = "";
 			
 			
-			$marker = "+фото";
+			$marker = "+С„РѕС‚Рѕ";
 			$articleChunks = explode($marker, $contents);
 			$nChunks = count($articleChunks);
 			$i = 1;
@@ -103,6 +105,7 @@ class EventWriter extends GenericWriter
 				$i++;
 			}
 			$contents = implode('', $articleChunks);
+
 			$replace[] = $contents;
 			
 			/*
@@ -113,7 +116,7 @@ class EventWriter extends GenericWriter
 			{
 				$img = '<img class="photo" src="/_images/events/' . $this->eventId . '/' . $photo['id'] . '.jpg" alt="photo" />';
 				$pos = strpos($contents, $marker, $pos);
-				if ( $pos === FALSE ) break; // если больше нет маркеров, выйти из цикла; оставшиеся фотки остаются скрытыми				
+				if ( $pos === FALSE ) break; // РµСЃР»Рё Р±РѕР»СЊС€Рµ РЅРµС‚ РјР°СЂРєРµСЂРѕРІ, РІС‹Р№С‚Рё РёР· С†РёРєР»Р°; РѕСЃС‚Р°РІС€РёРµСЃСЏ С„РѕС‚РєРё РѕСЃС‚Р°СЋС‚СЃСЏ СЃРєСЂС‹С‚С‹РјРё				
 				$contents_converted .= substr_replace($contents, $img, $pos);
 				$pos += $delta - 2;
 			}
@@ -121,8 +124,10 @@ class EventWriter extends GenericWriter
 			$replace[] = $contents_converted;
 			*/
 		}
-		
-		$replace[] = html_entity_decode($event['title']);
+
+        $event['title'] = iconv('windows-1251', 'utf-8', $event['title']);
+        $event['summary'] = iconv('windows-1251', 'utf-8', $event['summary']);
+        $replace[] = html_entity_decode($event['title']);
 		$replace[] = html_entity_decode($event['summary']);
 				
 		echo str_replace($search, $replace, $entry);

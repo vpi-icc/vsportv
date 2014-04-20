@@ -16,7 +16,7 @@
 		$lookupPaths = array('/', '/actions/', '/events/', '/forms/', '/adz/');
 		foreach ( $lookupPaths as $subpath )
 		{
-			$classFileName = $_SERVER['DOCUMENT_ROOT'] . '/req' . $subpath . $class_name . '.php';	
+			$classFileName = $_SERVER['DOCUMENT_ROOT'] . '/app' . $subpath . $class_name . '.php';
 			if ( file_exists($classFileName) )
 			{
 				require_once $classFileName;
@@ -32,7 +32,7 @@
 	
 	function ajax_exception_handler($e)
 	{
-		echo 'error: ' . $e->getMessage();	
+		echo 'error: ' . $e->getMessage();
 	}
 
 	error_reporting(E_ALL);
@@ -40,7 +40,7 @@
 	
 	
 	
-	require_once $_SERVER['DOCUMENT_ROOT'] . '/req/interfaces.php';
+	require_once 'app/interfaces.php';
 	
 
 ?>
