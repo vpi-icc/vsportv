@@ -45,8 +45,8 @@ class EventWriter extends GenericWriter
 			$label = '{' . $label . '}';
 		}
 
-        $event['title'] = iconv('windows-1251', 'utf-8', $event['title']);
-        $event['summary'] = iconv('windows-1251', 'utf-8', $event['summary']);
+       // $event['title'] = iconv('windows-1251', 'utf-8', $event['title']);
+       // $event['summary'] = iconv('windows-1251', 'utf-8', $event['summary']);
 		$replace = array($event['title'], $event['summary']);
 		
 		$image_src = 'http://' . $_SERVER['HTTP_HOST'] . '/_images';
@@ -74,7 +74,7 @@ class EventWriter extends GenericWriter
 		else		
 		{
 			$contents = file_get_contents($descriptionFile);
-            $contents = iconv('windows-1251', 'utf-8', $contents);
+           // $contents = iconv('windows-1251', 'utf-8', $contents);
 			$query = "
 				SELECT id, orientation
 				FROM kfkis_photos
@@ -125,8 +125,8 @@ class EventWriter extends GenericWriter
 			*/
 		}
 
-        $event['title'] = iconv('windows-1251', 'utf-8', $event['title']);
-        $event['summary'] = iconv('windows-1251', 'utf-8', $event['summary']);
+      //  $event['title'] = iconv('windows-1251', 'utf-8', $event['title']);
+      //  $event['summary'] = iconv('windows-1251', 'utf-8', $event['summary']);
         $replace[] = html_entity_decode($event['title']);
 		$replace[] = html_entity_decode($event['summary']);
 				

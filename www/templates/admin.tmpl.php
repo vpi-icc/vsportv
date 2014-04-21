@@ -1,6 +1,6 @@
-<? $part = basename(dirname($_SERVER['SCRIPT_NAME'])); ?>
+<? $part = basename(dirname($_SERVER['SCRIPT_NAME'])); 
 
-<? include $_SERVER['DOCUMENT_ROOT'] . "/inc/main_head.inc.php"; ?>
+ include $_SERVER['DOCUMENT_ROOT'] . "/inc/main_head.inc.php"; ?>
 <? require $_SERVER['DOCUMENT_ROOT'] . "/inc/authentication.php"; ?>
 
 <table width="100%" id="inner">
@@ -9,7 +9,7 @@
     		<div id="main_blocks">
             	<?
                 	$link = "";
-					if ( $_SERVER['REQUEST_URI'] !== "/admin/" ) $link = '<a href="/admin/">&larr;&nbsp;Панель администрирования</a>';
+					if ( $_SERVER['REQUEST_URI'] !== "/admin/" ) $link = '<a href="/admin/">&larr;&nbsp; </a>';
 					echo $link;
 				?>
     			<? include "content.php"; ?>

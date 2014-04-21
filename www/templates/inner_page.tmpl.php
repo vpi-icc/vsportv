@@ -1,6 +1,5 @@
-<? $part = basename(dirname($_SERVER['SCRIPT_NAME'])); ?>
-
-<? include $_SERVER['DOCUMENT_ROOT'] . "/inc/main_head.inc.php"; ?>
+<? $part = basename(dirname($_SERVER['SCRIPT_NAME']));
+   include $_SERVER['DOCUMENT_ROOT'] . "/inc/main_head.inc.php"; ?>
 
 <table width="100%" id="inner">
 	<tr>

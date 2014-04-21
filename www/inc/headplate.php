@@ -23,51 +23,51 @@ function drawVectorMenu(array $sections)
 
 <div id="header">
 	<div id="boy">
-		<img src="/_images/_layout/boy.png" width="478" height="301" alt="Запишись в спортивную секцию" />
+		<img src="/_images/_layout/boy.png" width="478" height="301" alt="Р—Р°РїРёС€РёСЃСЊ РІ СЃРїРѕСЂС‚РёРІРЅСѓСЋ СЃРµРєС†РёСЋ" />
 	</div>
     <div id="rghtblock">
       <div id="search">
-        <input type="text" name="request" value="Поиск" onclick="return false; window.location='/search/'"/>
+        <input type="text" name="request" value="РџРѕРёСЃРє" onclick="return false; window.location='/search/'"/>
       </div>
       <div id="advanced"> 
-        <!--<li><a href="#">Карта портала</a></li>--> 
-        <a href="/">Контактная информация</a>
+        <!--<li><a href="#">РљР°СЂС‚Р° РїРѕСЂС‚Р°Р»Р°</a></li>--> 
+        <a href="/">РљРѕРЅС‚Р°РєС‚РЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ</a>
       </div>
     </div>
     <!-- <div class="frght"><img src="/_images/_layout/" alt=""></div>	--> 
 	<div id="uppermenu">
     	<?
 			$sections = array(
-				"" => "Главное",
-				"events" => "Все новости",
-				"gallery" => "Фото",
-				"video" => "Видео",
-				"vseobutch" => "Спортивный всеобуч"/*,	22.11.2013 закомментил т.к. раздел не наполнен			
-				"links" => "Полезные ссылки"*/);
+				"" => "Р“Р»Р°РІРЅРѕРµ",
+				"events" => "Р’СЃРµ РЅРѕРІРѕСЃС‚Рё",
+				"gallery" => "Р¤РѕС‚Рѕ",
+				"video" => "Р’РёРґРµРѕ",
+				"vseobutch" => "РЎРїРѕСЂС‚РёРІРЅС‹Р№ РІСЃРµРѕР±СѓС‡"/*,	22.11.2013 Р·Р°РєРѕРјРјРµРЅС‚РёР» С‚.Рє. СЂР°Р·РґРµР» РЅРµ РЅР°РїРѕР»РЅРµРЅ			
+				"links" => "РџРѕР»РµР·РЅС‹Рµ СЃСЃС‹Р»РєРё"*/);
 				
 			drawVectorMenu($sections);	    
 		?>			    
     </div>
     <div id="plate">
 	  <div id="plate2">
-	    <div class="fleft"><a href="/"><img src="/_images/_layout/logo.gif" width="108" height="109" alt="Комитет по физической культуре и спорту" /></a></div>
+	    <div class="fleft"><a href="/"><img src="/_images/_layout/logo.gif" width="108" height="109" alt="РљРѕРјРёС‚РµС‚ РїРѕ С„РёР·РёС‡РµСЃРєРѕР№ РєСѓР»СЊС‚СѓСЂРµ Рё СЃРїРѕСЂС‚Сѓ" /></a></div>
 	    <div id="title" class="fleft">
-	      <div><strong>Комитет по&nbsp;физической<br />культуре и&nbsp;спорту<br /></strong><span class="f10">Администрации городского округа &laquo;Город Волжский&raquo; Волгоградской области</span></div>
+	      <div><strong>РљРѕРјРёС‚РµС‚ РїРѕ&nbsp;С„РёР·РёС‡РµСЃРєРѕР№<br />РєСѓР»СЊС‚СѓСЂРµ Рё&nbsp;СЃРїРѕСЂС‚Сѓ<br /></strong><span class="f10">РђРґРјРёРЅРёСЃС‚СЂР°С†РёРё РіРѕСЂРѕРґСЃРєРѕРіРѕ РѕРєСЂСѓРіР° &laquo;Р“РѕСЂРѕРґ Р’РѕР»Р¶СЃРєРёР№&raquo; Р’РѕР»РіРѕРіСЂР°РґСЃРєРѕР№ РѕР±Р»Р°СЃС‚Рё</span></div>
 	      <div class="f14">	        
           <br />
-	      Официальный информационный портал</div>
+	      РћС„РёС†РёР°Р»СЊРЅС‹Р№ РёРЅС„РѕСЂРјР°С†РёРѕРЅРЅС‹Р№ РїРѕСЂС‚Р°Р»</div>
 	    </div>	    
 	  </div>
 	</div>
 	<div id="lowermenu">
     <?
     	$sections = array(
-				"about" => "О комитете",
-				"infrastructure" => "Спортивная инфраструктура",
-				//"volzhsky" => "Волжский спорт",
-				"organizations" => "Общественные организации",
-				//"info" => "Физкультура для всех", 22,11,2013 закомментил т.к. раздел не наполнен 
-				"documents" => "Документы");				
+				"about" => "Рћ РєРѕРјРёС‚РµС‚Рµ",
+				"infrastructure" => "РЎРїРѕСЂС‚РёРІРЅР°СЏ РёРЅС„СЂР°СЃС‚СЂСѓРєС‚СѓСЂР°",
+				//"volzhsky" => "Р’РѕР»Р¶СЃРєРёР№ СЃРїРѕСЂС‚",
+				"organizations" => "РћР±С‰РµСЃС‚РІРµРЅРЅС‹Рµ РѕСЂРіР°РЅРёР·Р°С†РёРё",
+				//"info" => "Р¤РёР·РєСѓР»СЊС‚СѓСЂР° РґР»СЏ РІСЃРµС…", 22,11,2013 Р·Р°РєРѕРјРјРµРЅС‚РёР» С‚.Рє. СЂР°Р·РґРµР» РЅРµ РЅР°РїРѕР»РЅРµРЅ 
+				"documents" => "Р”РѕРєСѓРјРµРЅС‚С‹");				
 				
 		drawVectorMenu($sections);
 	?>    

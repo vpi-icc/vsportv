@@ -40,7 +40,7 @@
 	
 	
 	
-	require_once 'app/interfaces.php';
+	require_once 'interfaces.php';
 	
 
 ?>

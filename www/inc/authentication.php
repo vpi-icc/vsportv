@@ -5,8 +5,8 @@
 			<form id="auth_form" method="POST" class="frght">
 				<table>
 					<tr>
-						<th>логин</td>
-						<th>пароль</td>
+						<th>Р»РѕРіРёРЅ</td>
+						<th>РїР°СЂРѕР»СЊ</td>
 						<td></td>
 					</tr>
 					<tr>
@@ -48,7 +48,7 @@
 	{
 		?>
 			<div>				
-				<p class="f10"><a class="grey" href="<?=$logout_href?>?action=logout">сложить полномочия</a></p>
+				<p class="f10"><a class="grey" href="<?=$logout_href?>?action=logout">СЃР»РѕР¶РёС‚СЊ РїРѕР»РЅРѕРјРѕС‡РёСЏ</a></p>
 			</div>
 		<?
 	}

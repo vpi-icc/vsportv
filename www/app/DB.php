@@ -16,7 +16,7 @@ class DB
     private function __construct()
 	{
 		$this->dbh = new PDO($this->dsn, $this->dbuser, $this->dbpass, $this->options);
-		$this->dbh->query("SET CHARACTER SET 'cp1251'");
+		$this->dbh->query("SET CHARACTER SET 'utf8'");
 	}
     private function __clone() { /* ... */ }
  

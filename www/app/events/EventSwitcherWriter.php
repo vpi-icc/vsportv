@@ -61,7 +61,7 @@ class EventSwitcherWriter extends GenericWriter
 		$replace = array();
 		foreach ( $events as $event )
 		{
-            $event['title'] = iconv('Windows-1251', 'UTF-8', $event['title']);
+            //$event['title'] = iconv('Windows-1251', 'UTF-8', $event['title']);
 			$selectedEvents[] = $event['id'];
 			$replace = array_merge($replace, array($event['id'], $event['title'], $event['summary']));
 			$image_src = '/_images/events/' . $event['id'] . '/' . $event['id_cover'] . '_large.jpg';			

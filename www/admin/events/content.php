@@ -1,4 +1,4 @@
-<h1>Новое мероприятие</h1>
+<h1>РќРѕРІРѕРµ РјРµСЂРѕРїСЂРёСЏС‚РёРµ</h1>
 <?		
 	$eventAddAction = EventActionFactory::getAction('EventAddAction');
 	$eventAddAction->setHandler(new EventsList);

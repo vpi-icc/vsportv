@@ -1,13 +1,13 @@
 
 <ul>
 	<li>
-		<a href="/admin/events/">+ Новость</a>
+		<a href="/admin/events/">+ РќРѕРІРѕСЃС‚СЊ</a>
 	</li>
 	<li>
-		<a href="/admin/video/">+ Видео</a>
+		<a href="/admin/video/">+ Р’РёРґРµРѕ</a>
 	</li>
 	<li>
-		<a href="/admin/video_pro/">+ Видео Pro</a>
+		<a href="/admin/video_pro/">+ Р’РёРґРµРѕ Pro</a>
 	</li>
 </ul>
 
@@ -22,7 +22,7 @@
 */
 ?>
 
-<h1>Список прошедших мероприятий</h1>
+<h1>РЎРїРёСЃРѕРє РїСЂРѕС€РµРґС€РёС… РјРµСЂРѕРїСЂРёСЏС‚РёР№</h1>
 
 <?
 	$eventsList = new EventsList;

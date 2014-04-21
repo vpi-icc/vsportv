@@ -1,22 +1,22 @@
 <? 	
-	error_reporting(E_ALL);
-	ini_set("display_errors", "On");	
+ error_reporting(E_ALL);
+ ini_set("display_errors", "On");	
+ session_start();  
+ require_once $_SERVER['DOCUMENT_ROOT'] . '/app/core.php'; 
+ require $_SERVER['DOCUMENT_ROOT'] . "/app/video.req.php"; 
 ?>
-<? session_start(); ?>
-<? require_once $_SERVER['DOCUMENT_ROOT'] . '/req/core.php'; ?>
-<? require $_SERVER['DOCUMENT_ROOT'] . "/req/video.req.php"; ?>
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<title>Комитет по физической кульутре и спорту Администрации городского округа &laquo;Город Волжский&raquo; Волгоградской области</title>
+<title>РљРѕРјРёС‚РµС‚ РїРѕ С„РёР·РёС‡РµСЃРєРѕР№ РєСѓР»СЊСѓС‚СЂРµ Рё СЃРїРѕСЂС‚Сѓ РђРґРјРёРЅРёСЃС‚СЂР°С†РёРё РіРѕСЂРѕРґСЃРєРѕРіРѕ РѕРєСЂСѓРіР° &laquo;Р“РѕСЂРѕРґ Р’РѕР»Р¶СЃРєРёР№&raquo; Р’РѕР»РіРѕРіСЂР°РґСЃРєРѕР№ РѕР±Р»Р°СЃС‚Рё</title>
 <meta http-equiv="Content-Language" content="ru">
-<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="robots" content="index,follow">
-<meta name="keywords" content="Комитет, спорткомитет, физическая культура, спорт, Волжский, Волгоградской, области, стадионы, кружки, клубы, здоровье">
-<meta name="description" content="Комитет по физической кульутре и спорту Администрации городского округа «Город Волжский» Волгоградской области">
+<meta name="keywords" content="РљРѕРјРёС‚РµС‚, СЃРїРѕСЂС‚РєРѕРјРёС‚РµС‚, С„РёР·РёС‡РµСЃРєР°СЏ РєСѓР»СЊС‚СѓСЂР°, СЃРїРѕСЂС‚, Р’РѕР»Р¶СЃРєРёР№, Р’РѕР»РіРѕРіСЂР°РґСЃРєРѕР№, РѕР±Р»Р°СЃС‚Рё, СЃС‚Р°РґРёРѕРЅС‹, РєСЂСѓР¶РєРё, РєР»СѓР±С‹, Р·РґРѕСЂРѕРІСЊРµ">
+<meta name="description" content="РљРѕРјРёС‚РµС‚ РїРѕ С„РёР·РёС‡РµСЃРєРѕР№ РєСѓР»СЊСѓС‚СЂРµ Рё СЃРїРѕСЂС‚Сѓ РђРґРјРёРЅРёСЃС‚СЂР°С†РёРё РіРѕСЂРѕРґСЃРєРѕРіРѕ РѕРєСЂСѓРіР° В«Р“РѕСЂРѕРґ Р’РѕР»Р¶СЃРєРёР№В» Р’РѕР»РіРѕРіСЂР°РґСЃРєРѕР№ РѕР±Р»Р°СЃС‚Рё">
 <meta name='yandex-verification' content='6d8938a2d275a9e6' />
-<link href="/_css/styles.css" rel="stylesheet" />
+<link href="/_css/styles_mednopers.css" rel="stylesheet" />
 <!--[if IE 6]>
 <LINK href="/_css/styles_ie6.css" rel="stylesheet" />
 <![endif]-->
@@ -44,7 +44,7 @@ endif
 <? /*
 	$path = explode("/", $_SERVER['REQUEST_URI']);
 	$currentSection = $path[1];	
-	$sections = array("" => "Новости", "gallery" => "Фото" , "video" => "Видео" );
+	$sections = array("" => "РќРѕРІРѕСЃС‚Рё", "gallery" => "Р¤РѕС‚Рѕ" , "video" => "Р’РёРґРµРѕ" );
 	foreach ( $sections as $s => $title )
 	{		
 		if ( $currentSection !== $s ) $links[] = '<h3><a href="/' . $s . '">' . $title . '</a></h3>';
@@ -57,7 +57,7 @@ endif
   <tr> 
     <!--
 	<td width="220">
-    	<div id="blueheader_block" >Структура портала</div>
+    	<div id="blueheader_block" >РЎС‚СЂСѓРєС‚СѓСЂР° РїРѕСЂС‚Р°Р»Р°</div>
 		<div id="gray_block">
 		<ul id="ulpointer">
 			<? //include "../inc/menu.php"; ?>

@@ -45,7 +45,7 @@ class EventsList extends Object implements IManageable
 		$eventId = $this->dbh->lastInsertId();
 		
 		// handle description write to file
-		$descriptionDir = $_SERVER['DOCUMENT_ROOT'] . '/events/descriptions';
+		$descriptionDir = $_SERVER['DOCUMENT_ROOT'] . '/data/press';
 		if ( !file_exists($descriptionDir) && !mkdir($descriptionDir, 0777) )
 		{
 			$this->status = 'Не удалось создать директорию для хранения описания события';	
