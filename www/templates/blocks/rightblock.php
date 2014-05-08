@@ -1,15 +1,15 @@
-<!--<h2 style="margin-bottom:3px;">Ближайшие события</h2>
+<h2 style="margin-bottom:3px;">Ближайшие события</h2>
             <div class="next_events">
               <table>
                 <tr>
-                  <td><div>26<span>.04</span></div></td>
-                  <td>центральный стадион, 12:00</td>
+                  <td><div>10<span>.05</span></div></td>
+                  <td>ул. Набережная 6, КФП &laquo;Волга&raquo;, 11:00</td>
                 </tr>
               </table>
-              <h2><a href="#">Весенний кросс</a></h2>
-              <p class="lead">1 апреля, в Международный день смеха, волжане соберутся для участия в праздничном марафоне для преодоления дистанции в 10 км вольным стилем.</p>
+              <h2>Юбилей АМУ ФКС &laquo;Волжанин&raquo;</h2>
+              <p class="lead">В программе фестиваля: показательные выступления воспитанников учреждения, а так же, награждение тренеров и спортсменов «Волжанина». Приглашаются все желающие. Вход свободный.</p>
             </div>
-            <div class="next_events">
+            <!--<div class="next_events">
               <table>
                 <tr>
                   <td><div>12<span>.05</span></div></td>
@@ -28,13 +28,15 @@
               </table>
               <h2><a href="#">День здоровья — 2014</a></h2>
               <p class="lead">12 мая в 11:00 в спорткомплексе «Молодость» состоится спортивный праздник! Приглашаются первокурсники, преподаватели и все желающие! Приходите за победой!</p>
-            </div><a href="#"><img src="./_images/main/football_our_life.png" alt="Футбол - наша жизнь"></a><div class="Flash">
-  <object id="Flash" width="250px">
-    <param name="movie" value="http://vsportv.ru/_swf/vseros_fsk_230x100.swf">
-    <param name="quality" value="high">
-  <param name="wmode" value="transparent">
-  </object>
-</div>-->
+            </div>-->
+            <!--<a href="#"><img src="./_images/main/football_our_life.png" alt="Футбол - наша жизнь"></a>
+            <div class="Flash">
+			  <object id="Flash" width="250px">
+			    <param name="movie" value="http://vsportv.ru/_swf/vseros_fsk_230x100.swf">
+			    <param name="quality" value="high">
+			  <param name="wmode" value="transparent">
+			  </object>
+			</div>-->
 <!-- <div style="width:250px; height:440px;">&nbsp;</div> -->
 <h2>История волжского спорта в лицах и фактах</h2>
 <div class="history">
