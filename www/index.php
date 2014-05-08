@@ -14,7 +14,13 @@ require 'app/PDOStatementMySQL.php';
 
 $sections = array(
     'infrastructure' => 'Спортивная инфраструктура',
-    'online' => 'Онлайн-трансляция спортивной жизни Волжского'
+    'online' => 'Онлайн-трансляция спортивной жизни Волжского',
+	'about' => 'О комитете',
+	'documents' => 'Документы',
+	'intro' => 'Председатель комитета',
+	'organizations' => 'Общественные организации',
+	'reports' => 'Отчёты',
+	'gallery' => 'Галерея'	
 );
 
 $content = '';
@@ -28,7 +34,7 @@ if ( !empty( $_GET['section'] ) )
         case 'press':
             $title = 'Новости волжского спорта';
             $content = 'app/views/press_viewer.php';
-            break;
+            break;	
 
         default:
             $src = 'data/articles/' . $_GET['section'] . '.php';

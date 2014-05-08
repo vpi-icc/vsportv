@@ -37,7 +37,7 @@ class PhotoGallery
 		}
 		else
 		{
-			$this->Error("Îòñóòñòâóåò äèðåêòîðèÿ", $this->path_www);
+			$this->Error("ÐžÑ‚ÑÑƒÑ‚ÑÑ‚Ð²ÑƒÐµÑ‚ Ð´Ð¸Ñ€ÐµÐºÑ‚Ð¾Ñ€Ð¸Ñ", $this->path_www);
 		}		
 	}		
 

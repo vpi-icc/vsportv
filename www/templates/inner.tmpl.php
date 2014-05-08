@@ -11,6 +11,7 @@
 <td colspan="2"><table class="content" border="0">
 <tr>
     <td style="vertical-align: top">
+    	<h2><?=$title;?></h2>
         <? include $_SERVER['DOCUMENT_ROOT'] . '/' . $content ?>
     </td>
     <td rowspan="2" class="inner_right">
