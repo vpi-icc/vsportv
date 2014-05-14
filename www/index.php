@@ -34,7 +34,13 @@ if ( !empty( $_GET['section'] ) )
         case 'press':
             $title = 'Новости волжского спорта';
             $content = 'app/views/press_viewer.php';
-            break;	
+            break;
+			
+		case 'auth':
+            $title = 'Авторизация';
+            $content = 'app/views/press_viewer.php';
+			//$template = 'auth';
+            break;
 
         default:
             $src = 'data/articles/' . $_GET['section'] . '.php';

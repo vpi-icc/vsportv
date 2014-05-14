@@ -1,4 +1,4 @@
-<h2 style="margin-bottom:3px;">Ближайшие события</h2>
+<!--<h2 style="margin-bottom:3px;">Ближайшие события</h2>
             <div class="next_events">
               <table>
                 <tr>
@@ -9,7 +9,7 @@
               <h2>Юбилей АМУ ФКС &laquo;Волжанин&raquo;</h2>
               <p class="lead">В программе фестиваля: показательные выступления воспитанников учреждения, а так же, награждение тренеров и спортсменов «Волжанина». Приглашаются все желающие. Вход свободный.</p>
             </div>
-            <!--<div class="next_events">
+            <div class="next_events">
               <table>
                 <tr>
                   <td><div>12<span>.05</span></div></td>
@@ -38,6 +38,13 @@
 			  </object>
 			</div>-->
 <!-- <div style="width:250px; height:440px;">&nbsp;</div> -->
+<?
+	$eventsList = new EventsList;
+    $eventAnnWriter = new EventAnnWriter;
+    $template = $_SERVER['DOCUMENT_ROOT'] . '/app/views/annCard.html';
+    $eventAnnWriter->setTemplate($template);
+    $eventsList->write($eventAnnWriter);
+    ?>
 <h2>История волжского спорта в лицах и фактах</h2>
 <div class="history">
     <img src="./_images/main/jabko.png" alt="Ирина Жабко"><p><span>Ирина Жабко</span><br />Мастер спорта<br />международного класса<br />

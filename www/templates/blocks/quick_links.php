@@ -1,8 +1,8 @@
-<td><a href="#">
+<td><a href="?section=infrastructure">
         <div class="plitka orange_gradient"><img src="./_images/main/plitka1.png" alt="Спортивная инфраструктура">
             <p>Спортивная инфраструктура</p>
         </div>
-    </a> <a href="#">
+    </a> <a href="?section=organizations">
         <div class="plitka orange_gradient"><img src="./_images/main/plitka2.png" alt="Общественные организации">
             <p>Общественные организации</p>
         </div>

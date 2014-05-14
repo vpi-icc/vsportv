@@ -1,0 +1,273 @@
+/* CSS Document */
+
+p {
+	margin-top:10px;
+	margin-bottom:10px;
+	font-size: 14px;
+}
+
+
+ul {
+	list-style-type: square;
+	padding-left: 10px;
+	margin-left: 7px;
+}
+
+li {
+	font-size: 14px;	
+}
+
+
+.fleft {
+	float: left;
+}
+
+.frght {
+	float: right;
+}
+
+.left {
+	text-align: left;
+}
+
+.rght {
+	text-align: right;
+}
+
+.cntr {
+	text-align: center;
+}
+
+
+
+.hidden {
+	display: none;
+}
+
+.f10 {
+	font-size: 10px !important;
+}
+
+.f11 {
+	font-size: 11px !important;
+}
+
+.f12 {
+	font-size: 12px !important;
+}
+
+.f14 {
+	font-size: 14px !important;
+}
+
+.f16 {
+	font-size: 16px !important;
+}
+
+.f18 {
+	font-size: 18px !important;
+}
+
+.f20 {
+	font-size: 20px !important;
+}
+
+.grey, .gray {
+	color: #666 !important;
+}
+
+.red {
+	color: #C00 !important;
+}
+
+.blue {
+	color: #053A8D !important;
+}
+
+.orange {
+	color: #ff9000 !important;
+}
+
+
+
+
+
+h3 {
+	font-size: 16pt;
+	font-weight:normal;
+	margin-bottom:15px;
+	margin-top:15px;
+}
+
+h4 {
+	font-size: 14pt;
+	margin-bottom:15px;
+	margin-top:15px;
+}
+
+h5 {
+	font-size: 14pt;
+	font-weight:normal;
+	margin-bottom:15px;
+	margin-top:15px;
+}
+
+h6 {
+	font-size: 12pt;
+	font-weight:normal;
+	margin-bottom:5px;
+	margin-top:15px;
+	color: #FF6D00;
+}
+
+hr {
+	width: 100%;
+	display: block;
+	height: 1px;
+	background: #888;
+}
+
+
+input {border:1px solid #999 !important; background-color:#E5E5E5;}
+
+select {border:1px solid #999 !important; background-color:#E5E5E5;}
+
+.error			{ padding: 15px; border: 1px solid #FDD; background-color: #FFF0F0; margin: 10px 0; color: #500; font-weight: bold; font-size: 12px; }
+.notice			{ padding: 15px; border: 1px solid #DDD; background: #F5F5F5; margin: 10px 0; font-size: 14px }
+.remark			{ padding: 15px; margin-left: 20px; border-left: 4px solid #AAA; font-style: italic; font-size: 14px; color: #222; }
+.remark	p		{ margin: 8px 0; }
+
+.signature {
+	text-align: right;
+	font-style: italic;
+	font-size: 10px;
+	color: #888;
+}
+
+
+
+.photo {
+	/* border:solid 4px #CCCCCC; */
+	border: 4px solid #EEE;
+	margin: 0 0 10px 0;
+}
+
+.photo.fleft {
+	margin-right: 20px;	
+}
+
+.video {
+	border: 4px solid #CCC;
+}
+
+
+.navpaddingdown
+ {
+     padding-left: 20pt;
+ }
+
+#navpaddingdownlast
+{
+    padding-right: 20pt;
+}
+
+#vlznazametku
+{
+    font: bold 14pt 'Myriad Pro','Arial', sans-serif;
+    color: RGB(189, 0, 0);
+	padding-bottom: 10px;
+}
+
+.picmargindown
+{
+    margin-left: 10pt;
+}
+
+.textpaddingdown
+{
+    padding-left: 10pt; font-family:Arial, sans-serif; font-size:11px; color:#333333; height:100px; vertical-align:top;
+}
+
+.phone
+{
+    /* color: RGB(189, 0, 0); */
+}
+
+.attentionrect
+{
+    vertical-align: top;
+    padding: 7pt;
+}
+
+
+
+	#note_block  {color: #555; font-size: 11px; padding: 10px 5px 10px 20px; line-height: 1.1em; border: solid 1px #CCC; background-color:#F9F9F9;border-radius:6px; -webkit-border-radius:6px; -moz-border-radius:5px; -khtml-border-radius:10px;}
+	#note_error  {color: #8f0000; font-size: 11px; padding: 10px 0 10px 20px; line-height: 1.1em; border: solid 1px #8f0000; background-color:#ffd7d7;border-radius:6px; -webkit-border-radius:6px; -moz-border-radius:5px; -khtml-border-radius:10px;}
+	
+	#table1				{}
+	#table1 td			{border-bottom: 1px #E0E2E7 solid; padding: 6px 10px 6px 0; font-size: 12px; text-align:center}
+	#table1 td.left			{border-bottom: 1px #E0E2E7 solid; padding: 6px 10px 6px 0; font-size: 12px; text-align:left}	
+	#table1 th			{border-bottom: 2px #000 solid; padding: 6px 10px 6px 0; font-size: 10px; font-weight:bold; text-align:center;color:#000}
+	#table1 th.left			{border-bottom: 2px #000 solid; padding: 6px 10px 6px 0; font-size: 10px; font-weight:bold; text-align:left;color:#000}	
+	#table1 td.value	{font-weight: bold;}
+	#table1 tr.select	{background-color:#EFEFEF;}
+	#table1 tr.bold		{font-weight:bold;}
+	
+	#table2				{}
+	#table2 td			{border-bottom: 1px #E0E2E7 solid; padding: 6px 10px 6px 0; font-size: 12px; text-align:left}
+	#table2 td.center			{border-bottom: 1px #E0E2E7 solid; padding: 6px 10px 6px 0; font-size: 12px; text-align:center}	
+	#table2 th			{border-bottom: 2px #000 solid; padding: 6px 10px 6px 0; font-size: 10px; font-weight:bold; text-align:left;color:#000}
+	#table2 th.center			{border-bottom: 2px #000 solid; padding: 6px 10px 6px 0; font-size: 10px; font-weight:bold; text-align:center;color:#000}	
+	#table2 td.value	{font-weight: bold;}
+
+	#table2_f11				{}
+	#table2_f11 td			{border-bottom: 1px #E0E2E7 solid; padding: 6px 10px 6px 0; font-size: 11px; text-align:left}
+	#table2_f11 td.center			{border-bottom: 1px #E0E2E7 solid; padding: 6px 10px 6px 0; font-size: 11px; text-align:center}	
+	#table2_f11 th			{border-bottom: 2px #000 solid; padding: 6px 10px 6px 0; font-size: 10px; font-weight:bold; text-align:left;color:#000}
+	#table2_f11 th.center			{border-bottom: 2px #000 solid; padding: 6px 10px 6px 0; font-size: 10px; font-weight:bold; text-align:center;color:#000}	
+	#table2_f11 td.value	{font-weight: bold;}
+	
+	/* как table1, только вертикальное выравнивание по верхнему краю */
+	#table3				{}
+	#table3 td			{border-bottom: 1px #E0E2E7 solid; padding: 6px 10px 6px 0; font-size: 12px; text-align:center; vertical-align : top;}
+	#table3 td.left			{border-bottom: 1px #E0E2E7 solid; padding: 6px 10px 6px 0; font-size: 12px; text-align:left}	
+	#table3 th			{border-bottom: 2px #000 solid; padding: 6px 10px 6px 0; font-size: 10px; font-weight:bold; text-align:center;color:#000}
+	#table3 th.left			{border-bottom: 2px #000 solid; padding: 6px 10px 6px 0; font-size: 10px; font-weight:bold; text-align:left;color:#000}	
+	#table3 td.value	{font-weight: bold;}
+	
+	/* как table2, только вертикальное выравнивание по верхнему краю */
+	#table4				{}
+	#table4 td			{border-bottom: 1px #E0E2E7 solid; padding: 6px 10px 6px 0; font-size: 12px; text-align:left; vertical-align : top;}
+	#table4 td.center			{border-bottom: 1px #E0E2E7 solid; padding: 6px 10px 6px 0; font-size: 12px; text-align:center}	
+	#table4 th			{border-bottom: 2px #000 solid; padding: 6px 10px 6px 0; font-size: 10px; font-weight:bold; text-align:left;color:#000}
+	#table4 th.center			{border-bottom: 2px #000 solid; padding: 6px 10px 6px 0; font-size: 10px; font-weight:bold; text-align:center;color:#000}	
+	#table4 td.value	{font-weight: bold;}
+
+.gallery h3 a	{ color: #036708; text-decoration: none; color: #ff5500; border-bottom: 1px solid #ff5500; padding-bottom: 1px; }
+
+.pagination_panel {
+	text-align: center;			
+	margin-top: 25px;
+}
+
+.pagination_panel * {
+	font-weight: bold;
+	padding: 5px 15px;
+	margin-right: 5px;
+}
+
+.pagination_panel a {
+	line-height: 16px;
+	text-decoration: none;
+	color: #F60;
+	background: #ffe0e0;
+	border-bottom: 4px solid #F60;
+	border-radius: 5px;
+}
+
+.pagination_panel span {
+	background: #eee;
+	color: #CCC;
+	border-bottom: 4px solid #ddd;
+	border-radius: 5px;
+}
