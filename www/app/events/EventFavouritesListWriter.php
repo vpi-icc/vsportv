@@ -26,22 +26,24 @@ class EventFavouritesListWriter extends GenericWriter
 		foreach ( $events as $event )
 		{	
 			$entry = file_get_contents($this->templateFile);
-			$search = array('id', 'title', 'image');
+			$search = array('id', 'title', 'cover');
 	
 			foreach ( $search as &$label )
 			{
 				$label = '{' . $label . '}';
 			}
 			
-			$replace = array($event['id'], $event['title']);
-			
+			$replace = array($event['id'], $event['title'], $event['id_cover']);
+
+            /*
 			if ( $event['id_cover'] )
 				$image_src = '/_images/events/' . $event['id'] . '/' . $event['id_cover'] . '_mini.jpg';
 			else
 				$image_src = '/_images/_layout/no_image_75.gif';
 			
 			$replace[] = $image_src;			
-			
+			*/
+
 			echo str_replace($search, $replace, $entry);
 		}
 	}
