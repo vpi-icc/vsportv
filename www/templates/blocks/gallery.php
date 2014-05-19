@@ -1,4 +1,4 @@
-<td class="sport_moments"><h2>Мгновения спорта</h2>
+<td class="sport_moments"><br /><h2>Мгновения спорта</h2>
     <table>
         <tr>
             <td><a href="#"><img src="./_images/main/sport_moments1.png" alt="Мгновения спорта" title="Мгновения спорта"></a></td>
@@ -19,8 +19,8 @@
             <td><a href="#"><img src="./_images/main/sport_moments12.png" alt="Мгновения спорта" title="Мгновения спорта"></a></td>
         </tr>
     </table></td>
-<td class="inner_right"><h2>Лучшее</h2>
-    <table>
+<td class="inner_right"><br /><h2>Лучшее</h2>
+    <table class="best">
         <tr>
             <td><iframe title="YouTube video player" width="240" height="155" src="http://www.youtube.com/embed/qOrU374Y-qs?wmode=opaque" frameborder="0" allowfullscreen=""></iframe></td>
         </tr>

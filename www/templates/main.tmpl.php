@@ -19,8 +19,7 @@
 </tr>
 <tr>
     <td>
-        <? include "blocks/press_list.php" ?>
-        <br /><br />
+        <? include "blocks/press_list.php" ?>       
     </td>
 </tr>
 <tr>
