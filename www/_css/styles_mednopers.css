@@ -157,6 +157,10 @@ h2 {
 .last_events a {
 	text-decoration: none;
 	color: #000;
+	
+/*	Тут разобраться
+	display:block;
+	margin-bottom:10px 0;*/
 }
 
 .last_events a:hover h3 {
@@ -164,17 +168,27 @@ h2 {
 }
 .le_item {
 	height: 120px;
-	display: block;
-	margin: 0px 0 25px;
+	//display: block;
+	width:100%
+	padding:0;
+	border-spacing:10px;
+	margin: 0 0 20px -10px;
+	vertical-align: top;
+}
+.le_item td {
+	vertical-align:top;
 }
 .le_item > img {
 	float: left;
+	display:table-cell;
 	margin-right: 20px;
 	width:150px;
 	height:100px;
 }
 .lead {
 	padding-top: 5px;
+	padding-left:10px;
+	display:table-cell;
 	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .lead h3 {
@@ -184,7 +198,7 @@ h2 {
 }
 .lead p {
 	font-size: 13px;
-	margin-top: -15px;
+	margin-top: -10px;
 }
 .underline {
 	display: block;
@@ -237,7 +251,7 @@ a > .item > h3 {
 	width: 250px;
 }
 .trapezoid > p {
-	margin-top: 19px;
+	margin-top: 12px;
 	padding: 5px 20px 5px 30px;
 	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 600;
@@ -285,7 +299,7 @@ a > .item > h3 {
 
 .my_sport {
 	min-height: 300px;
-    margin-top: 18px;
+    margin-top: 20px;
 	padding: 10px 0;
 }
 
@@ -305,13 +319,24 @@ a > .item > h3 {
 	padding-right: 40px;
 }
 .sport_moments > table {
-	border-spacing: 4px;
+	border-spacing: 5px;
+	width:100%;
+	padding:0px;
+	margin-left:-5px;
 }
 
 .sport_moments > table img {
 	width:150px;
 	height:100px;
 }
+
+.best {
+  	width:100%;
+	border-spacing:0;
+	border-spacing:5px;
+	margin-left:-5px;
+}
+
 .plitka {
 	width: 184px;
 	height: 184px;
