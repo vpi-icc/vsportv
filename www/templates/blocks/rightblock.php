@@ -45,10 +45,10 @@
     $eventAnnWriter->setTemplate($template);
     $eventsList->write($eventAnnWriter);
     ?>
-<h2>История волжского спорта в лицах и фактах</h2>
+<h2>История волжского спорта в&nbsp;лицах и&nbsp;фактах</h2>
 <div class="history">
     <img src="./_images/main/jabko.png" alt="Ирина Жабко"><p><span>Ирина Жабко</span><br />Мастер спорта<br />международного класса<br />
-        по гандболу</p>
+        по&nbsp;гандболу</p>
 </div>
 <br /><br />
 <a href="#"><img src="./_images/main/football_our_life.png" alt="Футбол - наша жизнь"></a><div class="Flash">
