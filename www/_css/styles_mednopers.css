@@ -414,21 +414,25 @@ a > .item > h3 {
 .links a:hover {
 	text-decoration: underline;
 }
+
 .contacts {
 	width: 100%;
 	margin-top: 1px;
 	background-color: #929497;
 	border-top: 1px solid black;
 }
+
 .contacts p {
 	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 13px;
 	color: #fff;
 	padding-left: 20px;
 }
+
 .contacts a {
 	color: inherit;
 }
+
 .copy {
 	font-family: Arial, sans-serif;
 	font-size: 10px;
@@ -505,4 +509,12 @@ a > .item > h3 {
 .history p > span {
 	font-weight:600;
 	font-size:20px;
+}
+
+#counter {
+	position: relative;
+	float: right;
+	margin-top: -32px;
+	border: 2px solid #fff;
+	border-right-width: 7px;
 }
