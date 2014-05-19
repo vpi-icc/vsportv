@@ -20,6 +20,7 @@
 <tr>
     <td>
         <? include "blocks/press_list.php" ?>
+        <br /><br />
     </td>
 </tr>
 <tr>
