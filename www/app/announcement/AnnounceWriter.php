@@ -1,9 +1,9 @@
 <?
-class EventAnnWriter extends GenericWriter
+class AnnounceWriter extends GenericWriter
 {
 	protected $templateFile = NULL;
 		
-	public function write(IManageable $eventsList)
+	public function write(IManageable $announcesList)
 	{
 		$query = "
 			SELECT
@@ -11,10 +11,10 @@ class EventAnnWriter extends GenericWriter
 			FROM
 				kfkis_adz
 			WHERE
-				type = 'ADVERTISEMENT' and date_start>=CURDATE() AND ( flags != 'HIDDEN' OR flags IS NULL ) order by id desc";
-		$events = $eventsList->fetch($query);
+				type = 'ADVERTISEMENT' and date_start>=CURDATE() AND ( flags != 'HIDDEN' OR flags IS NULL ) order by date_start asc";
+		$announces = $announcesList->fetch($query);
 		
-		if ( empty($events) )
+		if ( empty($announces) )
 		{
 			//$this->status = 'Выбранное объявление не&nbsp;существует';
 			//$this->showError($this->status);
@@ -22,11 +22,11 @@ class EventAnnWriter extends GenericWriter
 		}
 		
 		echo "<h2 style='margin-bottom:3px;'>Ближайшие события</h2>";
-		foreach ($events as $event)
+		foreach ($announces as $announce)
 		{
-			$event['date_start'] = explode('-', substr($event['date_start'],0,10));
-			$month = $event['date_start'][1];
-			$day = $event['date_start'][2];
+			$announce['date_start'] = explode('-', substr($announce['date_start'],0,10));
+			$month = $announce['date_start'][1];
+			$day = $announce['date_start'][2];
 			$entry = file_get_contents($this->templateFile);
 			$search = array('title', 'lead', 'place', 'day', 'month');
 	
@@ -35,7 +35,7 @@ class EventAnnWriter extends GenericWriter
 				$label = '{' . $label . '}';
 			}
 			
-			$replace = array($event['title'], $event['lead'], $event['place'], $day, $month);
+			$replace = array($announce['title'], $announce['lead'], $announce['place'], $day, $month);
 			echo str_replace($search, $replace, $entry);
 		}
 	}

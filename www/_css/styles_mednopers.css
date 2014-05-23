@@ -501,6 +501,12 @@ a > .item > h3 {
 .history {
 	text-align:center;
 }
+
+.history a {
+	text-decoration:none;
+	color:#000;
+}
+
 .history p {
 	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size:14px;

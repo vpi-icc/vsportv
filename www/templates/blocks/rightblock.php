@@ -39,16 +39,15 @@
 			</div>-->
 <!-- <div style="width:250px; height:440px;">&nbsp;</div> -->
 <?
-	$eventsList = new EventsList;
-    $eventAnnWriter = new EventAnnWriter;
-    $template = $_SERVER['DOCUMENT_ROOT'] . '/app/views/annCard.html';
-    $eventAnnWriter->setTemplate($template);
-    $eventsList->write($eventAnnWriter);
+	$announceList = new AnnounceList;
+    $announceWriter = new AnnounceWriter;
+    $template = $_SERVER['DOCUMENT_ROOT'] . '/app/views/announceCard.html';
+    $announceWriter->setTemplate($template);
+    $announceList->write($announceWriter);
     ?>
 <h2>История волжского спорта в&nbsp;лицах и&nbsp;фактах</h2>
 <div class="history">
-    <img src="./_images/main/jabko.png" alt="Ирина Жабко"><p><span>Ирина Жабко</span><br />Мастер спорта<br />международного класса<br />
-        по&nbsp;гандболу</p>
+    <a href="/?section=press&id=79"><img src="./_images/main/ha4iperadze.png" alt="Анатолий Хачиперадзе"></a><p><span><a href="/?section=press&id=79">Анатолий Хачиперадзе</a></span><br />тренер по&nbsp;бальным танцам</p>
 </div>
 <br /><br />
 <a href="#"><img src="./_images/main/football_our_life.png" alt="Футбол - наша жизнь"></a><div class="Flash">

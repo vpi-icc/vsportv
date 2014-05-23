@@ -13,7 +13,7 @@
 
 	function __autoload($class_name)
 	{
-		$lookupPaths = array('/', '/actions/', '/events/', '/forms/', '/adz/');
+		$lookupPaths = array('/', '/actions/', '/announcement/', '/events/', '/forms/', '/adz/');
 		foreach ( $lookupPaths as $subpath )
 		{
 			$classFileName = $_SERVER['DOCUMENT_ROOT'] . '/app' . $subpath . $class_name . '.php';
