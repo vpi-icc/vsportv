@@ -36,7 +36,7 @@
 </table></td>
 </tr>
 <tr>
-    <td colspan="2">
+    <td colspan="2" class="footer">
         <? include "blocks/sitemap.php" ?>
         <? include "blocks/footer.php" ?>
         </td>

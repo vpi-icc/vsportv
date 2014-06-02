@@ -1,5 +1,11 @@
 <td class="sport_moments"><br /><h2>Мгновения спорта</h2>
-    <table>
+	<?
+    	$galleryList = new EventsGalleryList;
+		$gallery = new EventGalleryWriter;
+		$gallery->setPhotosCount(12);
+		$galleryList->write($gallery);
+	?>
+    <? /*<table>
         <tr>
             <td><a href="#"><img src="./_images/main/sport_moments1.png" alt="Мгновения спорта" title="Мгновения спорта"></a></td>
             <td><a href="#"><img src="./_images/main/sport_moments2.png" alt="Мгновения спорта" title="Мгновения спорта"></a></td>
@@ -18,7 +24,7 @@
             <td><a href="#"><img src="./_images/main/sport_moments11.png" alt="Мгновения спорта" title="Мгновения спорта"></a></td>
             <td><a href="#"><img src="./_images/main/sport_moments12.png" alt="Мгновения спорта" title="Мгновения спорта"></a></td>
         </tr>
-    </table></td>
+    </table>*/?></td>
 <td class="inner_right"><br /><h2>Лучшее</h2>
     <table class="best">
         <tr>
