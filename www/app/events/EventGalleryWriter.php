@@ -40,7 +40,7 @@ class EventGalleryWriter extends GenericWriter
 		$item = '';
 		foreach ( $photoList as $photo )
 		{
-			$item = '<td><a href="?section=press&id=' . $photo['id'] . '"><img class="photo" src="/_images/photos/' . $photo['id'] . '/' . $photo['id_cover'] . '_small.jpg" alt="' . $photo['title'] . '" title="' . $photo['title'] . '" /></a></td>';
+			$item = '<td><a href="?section=press&id=' . $photo['id'] . '"><img class="photo" src="/_images/events/' . $photo['id'] . '/' . $photo['id_cover'] . '_small.jpg" alt="' . $photo['title'] . '" title="' . $photo['title'] . '" /></a></td>';
 			$photos[] = $item;
 		}
 		
