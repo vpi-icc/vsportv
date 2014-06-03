@@ -2,7 +2,7 @@
 	<?
     	$galleryList = new EventsGalleryList;
 		$gallery = new EventGalleryWriter;
-		$gallery->setPhotosCount(12);
+		$gallery->setPhotosCount(12, 4);
 		$galleryList->write($gallery);
 	?>
     <? /*<table>
