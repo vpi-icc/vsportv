@@ -1,25 +1,28 @@
-<? $part = basename(dirname($_SERVER['SCRIPT_NAME'])); 
-
- include $_SERVER['DOCUMENT_ROOT'] . "/inc/main_head.inc.php"; ?>
-<? require $_SERVER['DOCUMENT_ROOT'] . "/inc/authentication.php"; ?>
-
-<table width="100%" id="inner">
-	<tr>
-		<td style="width: 780px; vertical-align: top;">
-    		<div id="main_blocks">
-            	<?
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <? include $_SERVER['DOCUMENT_ROOT'] . "/templates/blocks/head.php" ?>
+</head>
+<!-- Header area -->
+<body style="background-image:none;">
+<table align="center" cellpadding="0" cellspacing="0" border="0" id="maintable">
+<? include $_SERVER['DOCUMENT_ROOT'] . "/templates/blocks/header.php" ?>
+<tr>
+<td colspan="3"><table class="content" border="0">
+<tr>
+    <td style="vertical-align: top">
+    	<h2><?=$title;?></h2>
+        <? require $_SERVER['DOCUMENT_ROOT'] . "/inc/authentication.php"; ?>
+        <?
                 	$link = "";
 					if ( $_SERVER['REQUEST_URI'] !== "/admin/" ) $link = '<a href="/admin/">&larr;&nbsp; </a>';
 					echo $link;
-				?>
-    			<? include "content.php"; ?>
-                <div style="height:30px;"></div>
-            </div>
-		</td>
-		<td width="250" id="rightblock" style="padding-top: 70px;">        	
-			<? include $_SERVER['DOCUMENT_ROOT'] . "/inc/main_right_block.inc.php" ?>
-        </td>
-	</tr>
+		?>
+        <? include $_SERVER['DOCUMENT_ROOT'] . $_SERVER['REQUEST_URI'] . $content ?>
+    </td>
+</tr>
+</table></td>
+</tr>
 </table>
-
-<? include $_SERVER['DOCUMENT_ROOT'] .  "/inc/main_bot.inc.php" ?>
+</body>
+</html>

@@ -6,7 +6,7 @@
     <meta name="keywords" content="Комитет, спорткомитет, физическая культура, спорт, Волжский, Волгоградской, области, стадионы, кружки, клубы, здоровье">
     <meta name="description" content="Комитет по физической кульутре и спорту Администрации городского округа «Город Волжский» Волгоградской области">
     <meta name='yandex-verification' content='6d8938a2d275a9e6' />
-    <link href="./_css/styles_mednopers.css" rel="stylesheet" />
+    <link href="/_css/styles_mednopers.css" rel="stylesheet" />
     <!--[if IE 6]>
     <LINK href="/_css/styles_ie6.css" rel="stylesheet" />
     <![endif]-->

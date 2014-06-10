@@ -1,6 +1,9 @@
 
 <ul>
 	<li>
+		<a href="/admin/announcement/">+ Анонс</a>
+	</li>
+	<li>
 		<a href="/admin/events/">+ Новость</a>
 	</li>
 	<li>
