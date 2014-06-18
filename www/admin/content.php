@@ -1,18 +1,8 @@
 
-<ul>
-	<li>
-		<a href="/admin/announcement/">+ Анонс</a>
-	</li>
-	<li>
-		<a href="/admin/events/">+ Новость</a>
-	</li>
-	<li>
-		<a href="/admin/video/">+ Видео</a>
-	</li>
-	<li>
-		<a href="/admin/video_pro/">+ Видео Pro</a>
-	</li>
-</ul>
+		<a href="/admin/announcement/" class="btn btn-default"><span class="glyphicon glyphicon-plus"></span> Анонс</a>
+
+		<a href="/admin/events/" class="btn btn-default"><span class="glyphicon glyphicon-plus"></span> Новость</a>
+
 
 
 <?

@@ -11,30 +11,32 @@ class EventsList extends Object implements IManageable
 	
 	public function add(array $keyValueData)
 	{
-		$topflag = $keyValueData['topflag'] ? "'TOP'" : 'NULL';
+		//$topflag = $keyValueData['topflag'] ? "'TOP'" : 'NULL';
 		
-		$wrapFields = array('title', 'summary', 'eventdate', 'place', 'type', 'category', 'importance');
+		$wrapFields = array('title', 'summary');//, 'eventdate', 'place', 'type', 'category', 'importance');
 		
 		foreach ( $wrapFields as $field )
 		{
 			$keyValueData[$field] = '"' . $keyValueData[$field] . '"';	
 		}
-
+		
+		$keyValueData['eventdate'] = "'" . date('Y-m-d') . "'";
+		
 		$query = "
 			INSERT INTO kfkis_events
-				(title, summary, date_occured, place, participants, type, category, importance, flags)
+				(title, summary, date_occured)
 			VALUES
 				(" . implode(',', array(
 					$keyValueData['title'],
 					$keyValueData['summary'],
-					$keyValueData['eventdate'],
-					$keyValueData['place'],
+					$keyValueData['eventdate']
+					/*$keyValueData['place'],
 					$keyValueData['participants'],
 					$keyValueData['type'],
 					$keyValueData['category'],
 					$keyValueData['importance'],
-					$topflag)) . ")";
-					
+					$topflag*/)) . ")";
+								
 		if ( $this->dbh->exec($query) == 0 )
 		{
 			$this->status = 'Ошибка при добавлении мероприятия в базу:<br />';

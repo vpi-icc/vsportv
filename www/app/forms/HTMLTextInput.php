@@ -6,6 +6,7 @@ class HTMLTextInput extends HTMLFormElement
 	public $multiple = false;
 	
 	public $htmlAttrs = array(
+		'class' => 'form-control',
 		'type' => 'text');
 					
 	public $format = NULL;
@@ -26,7 +27,7 @@ class HTMLTextInput extends HTMLFormElement
 			if ( strlen($this->data) > $this->maxLength )
 			{
 				$this->isValid = false;
-				$this->errorDescription = 'Поле &laquo;' . $this->title . '&raquo; не&nbsp;должно превышать ' . $this->maxLength . ' символов в&nbsp;длину';
+				$this->errorDescription = 'РџРѕР»Рµ &laquo;' . $this->title . '&raquo; РЅРµ&nbsp;РґРѕР»Р¶РЅРѕ РїСЂРµРІС‹С€Р°С‚СЊ ' . $this->maxLength . ' СЃРёРјРІРѕР»РѕРІ РІ&nbsp;РґР»РёРЅСѓ';
 				return false;
 			}
 		}
@@ -35,7 +36,7 @@ class HTMLTextInput extends HTMLFormElement
 			if ( !preg_match($this->format, $this->data) )
 			{
 				$this->isValid = false;
-				$this->errorDescription = 'Поле &laquo;' . $this->title . '&raquo; должно соответствовать формату &laquo;' . $this->formatDescription . '&raquo;';
+				$this->errorDescription = 'РџРѕР»Рµ &laquo;' . $this->title . '&raquo; РґРѕР»Р¶РЅРѕ СЃРѕРѕС‚РІРµС‚СЃС‚РІРѕРІР°С‚СЊ С„РѕСЂРјР°С‚Сѓ &laquo;' . $this->formatDescription . '&raquo;';
 				return false;	
 			}
 		}							
@@ -46,7 +47,7 @@ class HTMLTextInput extends HTMLFormElement
 	
 	public function __toString()
 	{
-		if ( empty($this->name) ) return '<div class="error">Поле должно иметь имя</div>';
+		if ( empty($this->name) ) return '<div class="error">РџРѕР»Рµ РґРѕР»Р¶РЅРѕ РёРјРµС‚СЊ РёРјСЏ</div>';
 		$this->htmlAttrs['name'] = $this->name;
 		if ( $this->multiple ) $this->htmlAttrs['name'] .= '[]';
 		if ( !empty($this->data) ) $this->htmlAttrs['value'] = $this->data;
@@ -57,7 +58,7 @@ class HTMLTextInput extends HTMLFormElement
 			$element .= $attr . '="' . $value . '" ';
 		}
 		$element .= '/>';
-		if ( !$this->isValid ) $element = '<div class="error">' . $element . '</div>';
+		if ( !$this->isValid ) $element .= '<span class="glyphicon glyphicon-remove form-control-feedback"></span>';//$element = '<div class="error">' . $element . '</div>';
 		return $element;
 	}
 }	

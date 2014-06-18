@@ -2,19 +2,16 @@
 	function draw_auth_form()
 	{
 		?>
-			<form id="auth_form" method="POST" class="frght">
-				<table>
-					<tr>
-						<th>логин</td>
-						<th>пароль</td>
-						<td></td>
-					</tr>
-					<tr>
-						<td><input id="login" type="text" name="login" /></td>
-						<td><input id="pass" type="password" name="pass" /></td>
-						<td><input type="submit" value="go" /></td>
-					</tr>
-				</table>				
+			<form id="auth_form" method="POST" class="form-inline" role="form">
+				<div class="form-group">
+					<label for="login"><span class="glyphicon glyphicon-user"></span></label>
+					<input id="login" class="form-control" type="text" name="login" />
+				</div>&nbsp;&nbsp;
+				<div class="form-group">
+					<label for="pass"><span class="glyphicon glyphicon-lock"></span></label>
+					<input id="pass" class="form-control" type="password" name="pass" />
+				</div>
+			    <button type="submit" class="btn btn-default" value="go"><span class="glyphicon glyphicon-log-in"></span> Войти</button>
 			</form>			
 		<?	
 	}	

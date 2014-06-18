@@ -19,7 +19,7 @@ class HTMLFormElement implements IValidateable
 		if ( $this->required && empty($this->data) )
 		{
 			$this->isValid = false;
-			$this->errorDescription = 'Поле &laquo;' . $this->title . '&raquo; обязательно к&nbsp;заполнению';
+			$this->errorDescription = 'РџРѕР»Рµ &laquo;' . $this->title . '&raquo; РѕР±СЏР·Р°С‚РµР»СЊРЅРѕ Рє&nbsp;Р·Р°РїРѕР»РЅРµРЅРёСЋ';
 			return false;			
 		}
 		$this->isValid = true;

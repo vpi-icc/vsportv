@@ -2,6 +2,7 @@
 class HTMLTextArea extends HTMLTextInput
 {
 	public $htmlAttrs = array(
+		'class' => 'form-control',
 		'cols' => 60,
 		'rows' => 10);
 	
@@ -23,7 +24,8 @@ class HTMLTextArea extends HTMLTextInput
 			$element .= $attr . '="' . $value . '" ';
 		}
 		$element .= '>' . $text . '</textarea>';
-		if ( !$this->isValid ) $element = '<div class="error">' . $element . '</div>';
+		if ( !$this->isValid ) $element .= '<span class="glyphicon glyphicon-remove form-control-feedback"></span>';
+		//if ( !$this->isValid ) $element = '<div class="error">' . $element . '</div>';
 		return $element;
 	}
 }

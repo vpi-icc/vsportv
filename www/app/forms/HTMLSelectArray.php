@@ -3,7 +3,7 @@ class HTMLSelectArray extends HTMLFormElement
 {
 	public $multiple = false;
 	public $datagrid = NULL; // 'value' => 'title';
-	public $htmlAttrs = array();
+	public $htmlAttrs = array('class' => 'form-control');
 	public function __construct()
 	{
 		

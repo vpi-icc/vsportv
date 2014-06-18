@@ -534,3 +534,46 @@ a > .item > h3 {
 .footer {
 	padding:0 20px;
 }
+
+.newsblock {
+	margin: 5px 10px;
+	clear: left;
+	display: inline-block;
+	border-bottom:1px solid #999;
+}
+
+.newsblock .graphic	{
+	float: left;
+	text-align: center;
+}
+
+.newsblock .description	{
+	float: left;
+	//width: 442px;
+	margin-left: 6px;
+}
+
+.newsblock .description p {
+	font-size: 12px;
+	line-height: 1.5em;
+	margin-top: 4px;
+	padding-left: 1px;
+}
+.newsblock .description h1 {
+	font-size: 18px;
+	color: #ff5500;
+	font-weight:normal;
+	margin: -8px 4px 0 0;
+}
+
+.form-group input {
+	width:470px;
+}
+
+.form-group textarea {
+	width:470px;
+}
+
+.form-group span {
+	color:#a94442;
+}
