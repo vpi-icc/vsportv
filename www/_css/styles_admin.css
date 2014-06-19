@@ -1,0 +1,53 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+body {
+	margin-bottom: 60px;
+}
+h1 {
+	padding-left: 40px;
+	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 100;
+	letter-spacing: 3.2px;
+	font-size:30px;
+	padding:10px;
+}
+.header {
+	border-bottom:2px solid #555;
+}
+.small {
+	font-size: 12pt;
+	margin-top: -25px;
+	letter-spacing: 1px;
+}
+.container {
+	padding:20px 0;
+}
+.newsblock {
+	margin: 5px 10px;
+	clear: left;
+	display: inline-block;
+	border-bottom:1px solid #999;
+}
+.newsblock .graphic {
+	float: left;
+	text-align: center;
+}
+.newsblock .description {
+	float: left;
+ //width: 442px;
+	margin-left: 6px;
+}
+.newsblock .description p {
+	font-size: 12px;
+	line-height: 1.5em;
+	margin-top: 4px;
+	padding-left: 1px;
+}
+.newsblock .description h1 {
+	font-size: 18px;
+	color: #ff5500;
+	font-weight:normal;
+	margin: -8px 4px 0 0;
+}

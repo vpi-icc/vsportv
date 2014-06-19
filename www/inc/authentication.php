@@ -44,9 +44,7 @@
 	if ( !empty($_SESSION['authenticated']) && $_SESSION['authenticated'] )
 	{
 		?>
-			<div>				
-				<p class="f10"><a class="grey" href="<?=$logout_href?>?action=logout">сложить полномочия</a></p>
-			</div>
+			<a class="btn btn-default pull-right" href="<?=$logout_href?>?action=logout"><span class="glyphicon glyphicon-log-out"></span> Выйти</a>
 		<?
 	}
 	else
