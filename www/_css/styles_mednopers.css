@@ -175,7 +175,7 @@ h2 {
 .le_item {
 	height: 120px;
 	//display: block;
-	width:100%
+	//width:100%;
 	padding:0;
 	border-spacing:10px;
 	margin: 0 0 20px -10px;
