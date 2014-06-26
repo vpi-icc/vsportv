@@ -108,7 +108,47 @@ class EventsList extends Object implements IManageable
 	
 	public function modify(array $keyValueData)
 	{
-			
+		$wrapFields = array('id', 'title', 'summary');
+		$eventId = $keyValueData['id'];
+		
+		foreach ( $wrapFields as $field )
+		{
+			$keyValueData[$field] = "'" . $keyValueData[$field] . "'";	
+		}
+		
+		$keyValueData['eventdate'] = "'" . date('Y-m-d H:i:s') . "'";
+		
+		$query = "
+			UPDATE kfkis_events
+				SET title=". $keyValueData['title'] .", summary=". $keyValueData['summary'] .", date_occured=". $keyValueData['eventdate'] ."
+			WHERE id=". $keyValueData['id'];
+								
+		if ( $this->dbh->exec($query) == 0 )
+		{
+			$this->status = 'Ошибка при добавлении мероприятия в базу:<br />';
+			$this->status .= $query;
+			return false;
+		}
+		
+		// handle description write to file
+		$descriptionDir = $_SERVER['DOCUMENT_ROOT'] . '/data/press';
+		if ( !file_exists($descriptionDir) && !mkdir($descriptionDir, 0777) )
+		{
+			$this->status = 'Не удалось создать директорию для хранения описания события';	
+			return false;
+		}
+		
+		
+		$descriptionFile = $descriptionDir . '/' . $eventId . '.php';
+		
+		if ( !file_put_contents($descriptionFile, $keyValueData['description']) )
+		{
+			$this->status = 'Не удалось записать описание события в&nbsp;файл';
+			return false;
+		}
+		
+		$this->status = 'Мероприятие успешно изменено<br />';		
+		return true;		
 	}
 	
 	public function delete($id)

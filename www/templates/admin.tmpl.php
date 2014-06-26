@@ -18,7 +18,9 @@
 					if ( $_SERVER['REQUEST_URI'] !== "/admin/" ) $link = '<a href="/admin/" class="btn btn-default"><span class="glyphicon glyphicon-arrow-left"></span></a>';
 					echo $link;
 		?>
-        <? include $_SERVER['DOCUMENT_ROOT'] . $_SERVER['REQUEST_URI'] . $content ?>
+        <? 
+			$request = explode("?", $_SERVER['REQUEST_URI']);
+			include $_SERVER['DOCUMENT_ROOT'] . $request[0] . $content ?>
    </div>
    </div>
   </div>
