@@ -5,18 +5,28 @@
 	$eventModifyAction->setHandler($eventList);
 	//Необходимо сделать проверку на корректность id новости
 	//идентификатор новости должен быть числом!
-	$eventId = $_GET['id'];
-	//
+	//Лучше проверять на int или numeric?
+	//$eventId = $_GET['id'];
+	//if (!is_numeric($eventId))
+	$eventId = (int) $_GET['id'];
+	if (!is_int($eventId)||$eventId<0)
+	{
+		Object::showError("Идентификатор новости должен быть целым положительным числом");
+		exit;		
+	}
+
 	$query = "SELECT id, title, summary FROM kfkis_events WHERE id=".$eventId;
 	$eventData = $eventList->fetch($query);
+	
+	if (!$eventData)
+	{
+		Object::showError("Новости с указанным идентификатором не существует");
+		exit;		
+	}
+	
 	foreach ($eventData[0] as $key=>$value)
 	{
 		$eventData[$key] = $value;
-	}
-	if (!$eventData)
-	{
-		Object::showError("Новости с идентификатором $eventId не существует");
-		exit;		
 	}
 	
 	$descriptionDir = $_SERVER['DOCUMENT_ROOT'] . '/data/press';

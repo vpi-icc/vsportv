@@ -1,10 +1,13 @@
-<div class="newsblock col-sm-12">
-	<div class="col-sm-2 graphic hidden-xs hidden-sm">
+<div class="newsblock col-sm-12" style="padding:10px 0;">
+	<div class="col-sm-1 graphic hidden-xs hidden-sm">
 		<a href="/?section=press&id={id}"><img src="{image}" alt="{title}" title="{title}" class="photo" /></a>
-		<div class="cntr"><a href="/admin/events/modify/?id={id}">изменить</a></div>
+		<!--<div class="cntr"><a href="/admin/events/modify/?id={id}">изменить</a></div>-->
 	</div>
 	<div class="col-sm-9 description {hiddenflag}">		
-		<h1><a href="/?section=press&id={id}" class="{hiddenflag}">{title}</a></h1>
+		<a href="/?section=press&id={id}" class="{hiddenflag}">{title}</a>
 		<p>{summary}</p>		
+	</div>
+    <div class="col-sm-1">
+			<a href="/admin/events/modify/?id={id}" class="cntr"><span class="glyphicon glyphicon-pencil"></span></a>
 	</div>
 </div>

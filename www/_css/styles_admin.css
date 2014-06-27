@@ -36,7 +36,7 @@ h1 {
 }
 .newsblock .description {
 	float: left;
- //width: 442px;
+    //width: 442px;
 	margin-left: 6px;
 }
 .newsblock .description p {
@@ -47,7 +47,7 @@ h1 {
 }
 .newsblock .description h1 {
 	font-size: 18px;
-	color: #ff5500;
+	//color: #ff5500;
 	font-weight:normal;
 	margin: -8px 4px 0 0;
 }
@@ -66,4 +66,11 @@ h1 {
 	background: #F5F5F5;
 	margin: 10px 0;
 	font-size: 14px
+}
+
+.tab-pane > a {
+	margin:20px 0 -10px;
+}
+.cntr > .glyphicon {
+	color:#333;
 }

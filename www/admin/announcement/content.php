@@ -1,4 +1,4 @@
-<h1>Новое объявление</h1>
+<h1>Новый анонс</h1>
 <?		
 	$eventAddAction = AnnounceActionFactory::getAction('AnnounceAddAction');
 	$eventAddAction->setHandler(new AnnounceList);

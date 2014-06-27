@@ -41,7 +41,27 @@ class AnnounceList extends Object implements IManageable
 	
 	public function modify(array $keyValueData)
 	{
-			
+		$wrapFields = array('id', 'title', 'details', 'dateAnn', 'lead');
+		
+		foreach ( $wrapFields as $field )
+		{
+			$keyValueData[$field] = "'" . $keyValueData[$field] . "'";	
+		}
+		
+		$query = "
+			UPDATE kfkis_adz
+				SET title=". $keyValueData['title'] .", place=". $keyValueData['details'] .", lead=". $keyValueData['lead'] .", date_start=". $keyValueData['dateAnn'] ."
+			WHERE id=". $keyValueData['id'];
+							
+		if ( $this->dbh->exec($query) == 0 )
+		{
+			$this->status = 'Ошибка при добавлении анонса в базу:<br />';
+			$this->status .= $query;
+			return false;
+		}
+		
+		$this->status = 'Мероприятие успешно изменено<br />';		
+		return true;			
 	}
 	
 	public function delete($id)
