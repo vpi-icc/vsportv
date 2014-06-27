@@ -20,7 +20,8 @@ $sections = array(
 	'intro' => 'Председатель комитета',
 	'organizations' => 'Общественные организации',
 	'reports' => 'Отчёты',
-	'gallery' => 'Галерея'	
+	'gallery' => 'Галерея',
+	'veloreg' => 'Запись на «велобульвар»'
 );
 
 $content = '';
